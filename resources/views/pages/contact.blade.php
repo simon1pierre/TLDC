@@ -2,13 +2,13 @@
 
 @section('contents')
 @php
-  $contactEmail = $siteSettings?->contact_email ?: 'contact@beaconsofgod.org';
+  $contactEmail = $siteSettings?->contact_email ?: 'contact@thelastdayscovenants.org';
   $contactPhone = $siteSettings?->contact_phone ?: '+000 000 000';
   $contactAddress = $siteSettings?->contact_address ?: 'Global Online Ministry';
 @endphp
 <main class="flex-1">
   <section class="bg-gradient-to-b from-brand-blue via-blue-900 to-slate-900 text-white">
-    <div class="container mx-auto px-6 py-18 lg:py-24">
+    <div class="container mx-auto px-4 sm:px-6 py-18 lg:py-24">
       <div class="max-w-3xl">
         <p class="text-sm uppercase tracking-[0.3em] text-brand-gold mb-4">{{ __('messages.contact_page.badge') }}</p>
         <h1 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
@@ -21,7 +21,7 @@
     </div>
   </section>
 
-  <section class="container mx-auto px-6 py-14 lg:py-18">
+  <section class="container mx-auto px-4 sm:px-6 py-14 lg:py-18">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <div class="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
         <h3 class="font-serif text-lg text-slate-900 mb-3">{{ __('messages.contact_page.details_title') }}</h3>

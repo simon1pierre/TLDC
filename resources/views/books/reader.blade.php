@@ -48,7 +48,7 @@
                                 <span>{{ $readerAudioPartsCount }} parts ready for listening while reading.</span>
                             </div>
                             <button type="button" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-blue-700 text-white text-xs font-semibold hover:bg-blue-600" onclick="document.getElementById('toggleAbout')?.click();">
-                                <i data-lucide="headphones" class="w-4 h-4"></i>
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
                                 Open Audio
                             </button>
                         </div>
@@ -158,7 +158,7 @@
                                                 <div class="flex items-center justify-between gap-2">
                                                     <div class="text-xs font-semibold truncate">{{ $loop->iteration }}. {{ $track['label'] }}</div>
                                                     <a href="{{ $track['download'] }}" download class="inline-flex items-center justify-center text-slate-300 hover:text-white" data-track-download title="{{ __('messages.common.download') }}" aria-label="{{ __('messages.common.download') }}">
-                                                        <i data-lucide="download" class="w-4 h-4"></i>
+                                                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
                                                     </a>
                                                 </div>
                                             </button>
@@ -171,60 +171,33 @@
                         </div>
                     </div>
 
-                    <div id="readerPanel" class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
-                        <div class="p-3 md:p-4 border-b border-slate-200 bg-slate-50 flex items-center gap-2 overflow-x-auto whitespace-nowrap">
-                            <button type="button" id="prevPage" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">&larr; {{ __('messages.common.prev') }}</button>
-                            <button type="button" id="nextPage" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">{{ __('messages.common.next') }} &rarr;</button>
-                            <div class="flex items-center gap-2 text-sm text-slate-700">
-                                <span>{{ __('messages.common.page') }}</span>
-                                <input id="pageNumber" type="number" min="1" value="1" class="w-14 md:w-20 px-2 py-1.5 border border-slate-200 rounded-lg text-sm">
-                                <button type="button" id="goPage" class="px-2.5 py-1.5 rounded-lg border border-slate-200 text-slate-700 text-xs hover:bg-white">{{ __('messages.common.go') }}</button>
-                                <span>{{ __('messages.common.of') }}</span>
-                                <span id="pageCount">-</span>
-                            </div>
-                            <div class="hidden md:block text-xs text-slate-500" id="readingHint">{{ __('messages.books.use_arrow_keys') }}</div>
-                            <div class="hidden md:block mx-2 h-6 border-l border-slate-200"></div>
-                            <button type="button" id="zoomOut" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">-</button>
-                            <button type="button" id="zoomIn" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">+</button>
-                            <button type="button" id="fitWidth" class="hidden md:inline-flex px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">{{ __('messages.books.fit_width') }}</button>
-                            <button type="button" id="rotate" class="hidden md:inline-flex px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">{{ __('messages.books.rotate') }}</button>
-                            <button type="button" id="toggleAbout" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white inline-flex items-center gap-1.5">
-                                <i data-lucide="book-open" class="w-4 h-4"></i>
+                    <div class="flex items-center justify-between gap-2 mb-3">
+                        <div class="flex items-center gap-2">
+                            <button type="button" id="toggleAbout" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-slate-700 text-sm hover:bg-slate-50 inline-flex items-center gap-1.5 shadow-sm">
+                                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                                 {{ __('messages.books.about_this_book') }}
                                 @if (!empty($linkedAudiobooks) && $linkedAudiobooks->count() && $readerAudioPartsCount > 0)
                                     <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 text-[11px] font-semibold">
-                                        <i data-lucide="headphones" class="w-3.5 h-3.5"></i>
+                                        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
                                         {{ $readerAudioPartsCount }}
                                     </span>
                                 @endif
                             </button>
-                            <div class="ml-auto flex gap-2">
-                                <button type="button" id="toggleFullscreen" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm hover:bg-white">{{ __('messages.common.fullscreen') }}</button>
-                            </div>
                         </div>
-                        <div class="px-4 py-2 bg-white border-b border-slate-200">
-                            <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
-                                <span>{{ __('messages.books.reading_progress') }}</span>
-                                <span id="readingProgressText">0%</span>
-                            </div>
-                            <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
-                                <div id="readingProgressBar" class="h-full bg-blue-700 transition-all duration-200" style="width: 0%"></div>
-                            </div>
+                        <div class="flex items-center gap-2">
+                            <span class="text-xs text-slate-400" id="pageIndicator">- / -</span>
                         </div>
-                        <div class="md:hidden sticky bottom-0 z-20 bg-white/95 backdrop-blur border-t border-slate-200 px-3 py-2 flex items-center gap-2">
-                            <button type="button" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm" data-reader-action="prev">&larr;</button>
-                            <button type="button" class="px-3 py-2 rounded-lg border border-slate-200 text-slate-700 text-sm" data-reader-action="next">&rarr;</button>
-                            <div class="flex items-center gap-2 text-xs text-slate-700 ml-auto">
-                                <span>{{ __('messages.common.page') }}</span>
-                                <input id="pageNumberMobile" type="number" min="1" value="1" class="w-16 px-2 py-1.5 border border-slate-200 rounded-lg text-xs">
-                                <button type="button" class="px-2.5 py-1.5 rounded-lg border border-slate-200 text-slate-700 text-[11px]" data-reader-action="go">{{ __('messages.common.go') }}</button>
-                                <span class="text-slate-500">/</span>
-                                <span id="pageCountMobile" class="text-slate-600">-</span>
-                            </div>
-                        </div>
+                    </div>
 
-                        <div id="readerContainer" class="bg-slate-200 overflow-auto h-[62vh] md:h-[75vh]">
-                            <canvas id="pdfCanvas" class="mx-auto my-4 shadow-md bg-white"></canvas>
+                    <div id="flipbookContainer" class="w-full bg-slate-200 rounded-2xl overflow-hidden shadow-sm border border-slate-200" style="height: min(85vh, 800px);"></div>
+
+                    <div class="bg-white rounded-xl border border-slate-200 px-4 py-3 shadow-sm">
+                        <div class="flex items-center justify-between text-xs text-slate-500 mb-1">
+                            <span>{{ __('messages.books.reading_progress') }}</span>
+                            <span id="readingProgressText">0%</span>
+                        </div>
+                        <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+                            <div id="readingProgressBar" class="h-full bg-[#00283c] transition-all duration-300" style="width: 0%"></div>
                         </div>
                     </div>
                 </div>
@@ -288,8 +261,7 @@
     </section>
 </main>
 @if ($book->file_path)
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+<script src="{{ asset('vendor/pdflipbook.js') }}"></script>
 <script>
     const BOOK_ID = {{ $book->id }};
     const PDF_URL = @json(asset('storage/'.$book->file_path));
@@ -312,18 +284,10 @@
         }
         return id;
     })();
-    let pdfDoc = null;
+    let flipbook = null;
     let currentPage = 1;
     let totalPages = 0;
-    let zoom = 1.2;
-    let rotation = 0;
-    let rendering = false;
-    let pendingPage = null;
     let readSeconds = 0;
-    let pageTextCache = {};
-    let voices = [];
-    let currentUtterance = null;
-    let ocrRunning = false;
     let lastProgressKey = '';
 
     function csrfToken() {
@@ -387,262 +351,6 @@
         }, extra || {});
     }
 
-    function setReaderStatus(message) {
-        const status = document.getElementById('readerStatus');
-        if (status) {
-            status.textContent = message || '';
-        }
-    }
-
-    function normalizeTextForSpeech(text) {
-        if (!text) return '';
-        let normalized = String(text)
-            .replace(/\r?\n/g, ' ')
-            .replace(/\s+/g, ' ')
-            .trim();
-
-        // Merge OCR output sequences such as: "i j a m b o"
-        normalized = normalized.replace(/(?:\b[A-Za-z]\b\s+){2,}\b[A-Za-z]\b/g, (match) => {
-            return match.replace(/\s+/g, '');
-        });
-
-        normalized = normalized
-            .replace(/\s+([,.;!?])/g, '$1')
-            .replace(/([({[])\s+/g, '$1')
-            .replace(/\s+([)}\]])/g, '$1');
-
-        return normalized;
-    }
-
-    function lineAwarePdfText(items) {
-        if (!Array.isArray(items) || items.length === 0) {
-            return '';
-        }
-
-        const enriched = items
-            .map((item) => {
-                const tr = item.transform || [0, 0, 0, 0, 0, 0];
-                return {
-                    str: String(item.str || '').trim(),
-                    x: Number(tr[4] || 0),
-                    y: Number(tr[5] || 0),
-                };
-            })
-            .filter((item) => item.str !== '');
-
-        if (enriched.length === 0) {
-            return '';
-        }
-
-        enriched.sort((a, b) => {
-            if (Math.abs(b.y - a.y) > 2) {
-                return b.y - a.y;
-            }
-            return a.x - b.x;
-        });
-
-        const lines = [];
-        let current = [];
-        let currentY = enriched[0].y;
-
-        for (const token of enriched) {
-            if (Math.abs(token.y - currentY) > 6) {
-                if (current.length) {
-                    lines.push(current.join(' '));
-                }
-                current = [token.str];
-                currentY = token.y;
-            } else {
-                current.push(token.str);
-            }
-        }
-        if (current.length) {
-            lines.push(current.join(' '));
-        }
-
-        return lines.join('. ');
-    }
-
-    function selectedLang() {
-        return document.getElementById('readingLanguage')?.value || 'rw-RW';
-    }
-
-    function langPrefix(lang) {
-        return String(lang || 'en-US').split('-')[0].toLowerCase();
-    }
-
-    function queueRender(pageNumber) {
-        if (rendering) {
-            pendingPage = pageNumber;
-            return;
-        }
-        renderPage(pageNumber);
-    }
-
-    function renderPage(pageNumber) {
-        if (!pdfDoc || pageNumber < 1 || pageNumber > totalPages) {
-            return;
-        }
-        rendering = true;
-        pdfDoc.getPage(pageNumber).then((page) => {
-            const container = document.getElementById('readerContainer');
-            const canvas = document.getElementById('pdfCanvas');
-            const context = canvas.getContext('2d');
-            const viewport = page.getViewport({ scale: zoom, rotation });
-            canvas.width = viewport.width;
-            canvas.height = viewport.height;
-
-            const renderContext = {
-                canvasContext: context,
-                viewport: viewport
-            };
-
-            return page.render(renderContext).promise.then(() => {
-                currentPage = pageNumber;
-                document.getElementById('pageNumber').value = currentPage;
-                syncMobilePage();
-                updateReadingProgress();
-                trackReadProgress();
-                if (container) {
-                    container.scrollTop = 0;
-                }
-            });
-        }).finally(() => {
-            rendering = false;
-            if (pendingPage !== null) {
-                const next = pendingPage;
-                pendingPage = null;
-                renderPage(next);
-            }
-        });
-    }
-
-    async function getPageText(pageNumber) {
-        if (pageTextCache[pageNumber]) {
-            return pageTextCache[pageNumber];
-        }
-        if (!pdfDoc) {
-            return '';
-        }
-
-        const page = await pdfDoc.getPage(pageNumber);
-        const content = await page.getTextContent();
-        const readingSource = document.getElementById('readingSource')?.value || 'pdf';
-        let text = normalizeTextForSpeech(lineAwarePdfText(content.items));
-
-        if (readingSource === 'ocr' || text.length < 8) {
-            const ocrText = await getPageTextViaOcr(pageNumber);
-            text = normalizeTextForSpeech(ocrText || text);
-        }
-
-        pageTextCache[pageNumber] = text;
-        return pageTextCache[pageNumber];
-    }
-
-    async function getPageTextViaOcr(pageNumber) {
-        if (!window.Tesseract || ocrRunning) {
-            return '';
-        }
-
-        ocrRunning = true;
-        setReaderStatus(@json(__('messages.books.ocr_running')));
-        try {
-            const page = await pdfDoc.getPage(pageNumber);
-            const viewport = page.getViewport({ scale: 1.8, rotation });
-            const offscreen = document.createElement('canvas');
-            const ctx = offscreen.getContext('2d');
-            offscreen.width = viewport.width;
-            offscreen.height = viewport.height;
-            await page.render({ canvasContext: ctx, viewport }).promise;
-
-            const ocrLangMap = {
-                'rw-RW': 'kin+eng',
-                'fr-FR': 'fra+eng',
-                'en-US': 'eng',
-            };
-            const ocrLang = ocrLangMap[selectedLang()] || 'eng';
-            const result = await Tesseract.recognize(offscreen, ocrLang).catch(async () => {
-                return Tesseract.recognize(offscreen, 'eng');
-            });
-
-            const text = (result?.data?.text || '').replace(/\s+/g, ' ').trim();
-            setReaderStatus(text ? @json(__('messages.books.ocr_extracted')) : @json(__('messages.books.ocr_no_text')));
-            return text;
-        } catch (error) {
-            setReaderStatus(@json(__('messages.books.ocr_failed')));
-            return '';
-        } finally {
-            ocrRunning = false;
-        }
-    }
-
-    function loadVoices() {
-        voices = window.speechSynthesis ? window.speechSynthesis.getVoices() : [];
-        const select = document.getElementById('ttsVoice');
-        if (!select) return;
-        select.innerHTML = '<option value="">System voice</option>';
-        voices.forEach((voice, index) => {
-            const option = document.createElement('option');
-            option.value = String(index);
-            option.textContent = `${voice.name} (${voice.lang})`;
-            select.appendChild(option);
-        });
-    }
-
-    function preselectVoiceForLanguage() {
-        const select = document.getElementById('ttsVoice');
-        if (!select) return;
-        const prefix = langPrefix(selectedLang());
-        const index = voices.findIndex((voice) => String(voice.lang || '').toLowerCase().startsWith(prefix));
-        if (index >= 0) {
-            select.value = String(index);
-            setReaderStatus(`${@json(__('messages.books.voice_set_for'))} ${selectedLang()}`);
-        } else if (prefix === 'rw') {
-            setReaderStatus(@json(__('messages.books.no_native_rw_voice')));
-        }
-    }
-
-    async function speakCurrentPage() {
-        if (!window.speechSynthesis) {
-            alert(@json(__('messages.books.speech_not_supported')));
-            return;
-        }
-
-        const rate = parseFloat(document.getElementById('ttsRate').value || '1');
-        let text = await getPageText(currentPage);
-
-        if (!text) {
-            setReaderStatus(@json(__('messages.books.no_readable_text')));
-            return;
-        }
-
-        text = normalizeTextForSpeech(text);
-
-        window.speechSynthesis.cancel();
-        currentUtterance = new SpeechSynthesisUtterance(text);
-        const lang = selectedLang();
-        currentUtterance.rate = lang === 'rw-RW' ? Math.min(rate, 0.95) : rate;
-        currentUtterance.pitch = 1;
-        currentUtterance.lang = lang;
-
-        const selectedVoiceIndex = document.getElementById('ttsVoice').value;
-        if (selectedVoiceIndex !== '' && voices[selectedVoiceIndex]) {
-            currentUtterance.voice = voices[selectedVoiceIndex];
-        } else {
-            const prefix = langPrefix(lang);
-            const best = voices.find((voice) => String(voice.lang || '').toLowerCase().startsWith(prefix));
-            if (best) {
-                currentUtterance.voice = best;
-            } else if (prefix === 'rw') {
-                setReaderStatus(@json(__('messages.books.no_rw_voice_installed')));
-            }
-        }
-
-        window.speechSynthesis.speak(currentUtterance);
-        trackBook('read_aloud', { watch_seconds: readSeconds });
-        setReaderStatus(@json(__('messages.books.reading_aloud')));
-    }
-
     function updateReadingProgress() {
         const progressText = document.getElementById('readingProgressText');
         const progressBar = document.getElementById('readingProgressBar');
@@ -662,121 +370,53 @@
         trackBook('read_progress', readerProgressPayload());
     }
 
-    function initReader() {
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-        pdfjsLib.getDocument(PDF_URL).promise.then((pdf) => {
-            pdfDoc = pdf;
-            totalPages = pdf.numPages;
-            document.getElementById('pageCount').textContent = totalPages;
-            syncMobilePage();
-            queueRender(1);
-            trackBook('open_reader', readerProgressPayload());
-        }).catch(() => {
-            alert(@json(__('messages.books.reader_load_failed')));
-        });
+    function initPDFlipbook() {
+        const container = document.getElementById('flipbookContainer');
+        if (!container) return;
+
+        try {
+            flipbook = window.PDFlipbook.create(container, {
+                url: PDF_URL,
+                duration: 600,
+                displayMode: 'auto',
+                pageNumbers: true,
+                arrows: true,
+                controls: true,
+                shadow: 'fullscreen',
+                cornerFold: true,
+                edgeSize: 0.14,
+            });
+
+            container.addEventListener('flipbook:ready', (e) => {
+                totalPages = e.detail.pages;
+                currentPage = flipbook.currentPage();
+                updateReadingProgress();
+                document.getElementById('pageIndicator').textContent = `${currentPage} / ${totalPages}`;
+                trackBook('open_reader', readerProgressPayload());
+            });
+
+            container.addEventListener('flipbook:pagechange', (e) => {
+                const newPage = e.detail.page;
+                if (newPage !== currentPage) {
+                    currentPage = newPage;
+                    totalPages = e.detail.pages;
+                    document.getElementById('pageIndicator').textContent = `${currentPage} / ${totalPages}`;
+                    updateReadingProgress();
+                    trackReadProgress();
+                    trackBook('read', readerProgressPayload());
+                }
+            });
+
+            container.addEventListener('flipbook:error', (e) => {
+                container.innerHTML = `<div class="flex items-center justify-center h-full text-slate-500 text-sm">Failed to load book reader. <button onclick="initPDFlipbook()" class="ml-2 underline text-blue-700">Retry</button></div>`;
+            });
+        } catch (err) {
+            container.innerHTML = `<div class="flex items-center justify-center h-full text-slate-500 text-sm">Failed to load book reader. <button onclick="initPDFlipbook()" class="ml-2 underline text-blue-700">Retry</button></div>`;
+        }
     }
 
     document.addEventListener('DOMContentLoaded', () => {
-        initReader();
-        loadVoices();
-        preselectVoiceForLanguage();
-        if (window.speechSynthesis) {
-            window.speechSynthesis.onvoiceschanged = () => {
-                loadVoices();
-                preselectVoiceForLanguage();
-            };
-        }
-
-        document.getElementById('readingLanguage')?.addEventListener('change', () => {
-            preselectVoiceForLanguage();
-            pageTextCache = {};
-        });
-
-        document.getElementById('readingSource')?.addEventListener('change', () => {
-            pageTextCache = {};
-        });
-
-        document.getElementById('prevPage').addEventListener('click', () => {
-            if (currentPage <= 1) return;
-            queueRender(currentPage - 1);
-            trackBook('read', readerProgressPayload());
-        });
-
-        document.getElementById('nextPage').addEventListener('click', () => {
-            if (currentPage >= totalPages) return;
-            queueRender(currentPage + 1);
-            trackBook('read', readerProgressPayload());
-        });
-
-        const jumpToPage = () => {
-            const event = { target: document.getElementById('pageNumber') };
-            const page = parseInt(event.target.value, 10);
-            if (!page || page < 1 || page > totalPages) {
-                event.target.value = currentPage;
-                return;
-            }
-            queueRender(page);
-            trackBook('read', readerProgressPayload());
-        };
-
-        const pageNumberInput = document.getElementById('pageNumber');
-        const pageNumberMobile = document.getElementById('pageNumberMobile');
-        const pageCountMobile = document.getElementById('pageCountMobile');
-
-        const syncMobilePage = () => {
-            if (pageNumberMobile) pageNumberMobile.value = String(currentPage);
-            if (pageCountMobile) pageCountMobile.textContent = String(totalPages || '-');
-        };
-
-        pageNumberInput?.addEventListener('change', jumpToPage);
-        document.getElementById('goPage')?.addEventListener('click', jumpToPage);
-
-        pageNumberMobile?.addEventListener('change', () => {
-            if (!pageNumberMobile) return;
-            pageNumberInput.value = pageNumberMobile.value;
-            jumpToPage();
-        });
-
-        document.querySelectorAll('[data-reader-action]').forEach((button) => {
-            button.addEventListener('click', () => {
-                const action = button.getAttribute('data-reader-action');
-                if (action === 'prev') document.getElementById('prevPage')?.click();
-                if (action === 'next') document.getElementById('nextPage')?.click();
-                if (action === 'go') pageNumberMobile?.dispatchEvent(new Event('change'));
-            });
-        });
-
-        document.getElementById('zoomIn').addEventListener('click', () => {
-            zoom = Math.min(zoom + 0.2, 3.0);
-            queueRender(currentPage);
-        });
-
-        document.getElementById('zoomOut').addEventListener('click', () => {
-            zoom = Math.max(zoom - 0.2, 0.6);
-            queueRender(currentPage);
-        });
-
-        document.getElementById('fitWidth').addEventListener('click', () => {
-            const container = document.getElementById('readerContainer');
-            const width = container ? container.clientWidth : 1000;
-            zoom = Math.max(0.6, Math.min(3.0, (width - 60) / 800));
-            queueRender(currentPage);
-        });
-
-        document.getElementById('rotate').addEventListener('click', () => {
-            rotation = (rotation + 90) % 360;
-            pageTextCache = {};
-            queueRender(currentPage);
-        });
-
-        document.getElementById('toggleFullscreen').addEventListener('click', () => {
-            const container = document.getElementById('readerContainer');
-            if (!document.fullscreenElement) {
-                container.requestFullscreen?.();
-            } else {
-                document.exitFullscreen?.();
-            }
-        });
+        initPDFlipbook();
 
         const aboutPanel = document.getElementById('aboutPanel');
         document.getElementById('toggleAbout').addEventListener('click', () => {
@@ -794,21 +434,6 @@
         if (OPEN_AUDIO_PANEL) {
             aboutPanel?.classList.remove('hidden');
         }
-
-        document.getElementById('readPage')?.addEventListener('click', speakCurrentPage);
-        document.getElementById('pauseRead')?.addEventListener('click', () => {
-            if (!window.speechSynthesis) return;
-            if (window.speechSynthesis.paused) {
-                window.speechSynthesis.resume();
-            } else {
-                window.speechSynthesis.pause();
-            }
-        });
-        document.getElementById('stopRead')?.addEventListener('click', () => {
-            if (!window.speechSynthesis) return;
-            window.speechSynthesis.cancel();
-            setReaderStatus(@json(__('messages.books.reading_stopped')));
-        });
 
         const linkedPlayer = document.getElementById('linkedAudiobookPlayer');
         const linkedSource = document.getElementById('linkedAudiobookSource');
@@ -963,16 +588,6 @@
             syncLinkedPlayState();
         }
 
-        document.addEventListener('keydown', (event) => {
-            if (event.key === 'ArrowRight') {
-                document.getElementById('nextPage')?.click();
-            } else if (event.key === 'ArrowLeft') {
-                document.getElementById('prevPage')?.click();
-            } else if (event.key.toLowerCase() === 'f') {
-                document.getElementById('toggleFullscreen')?.click();
-            }
-        });
-
         setInterval(() => {
             readSeconds += 15;
             trackBook('read', readerProgressPayload({ watch_seconds: 15 }));
@@ -981,11 +596,3 @@
 </script>
 @endif
 @endsection
-
-
-
-
-
-
-
-

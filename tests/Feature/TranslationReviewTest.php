@@ -2,7 +2,7 @@
 
 use App\Models\ContentTranslation;
 use App\Models\User;
-use App\\Models\\Book;
+use App\Models\Book;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
 
@@ -21,7 +21,7 @@ function makeAdminReviewer(): User
     ]);
 }
 
-function makeTranslationBookRecord(): book
+function makeTranslationBookRecord(): Book
 {
     return Book::create([
         'title' => 'Translation Book',

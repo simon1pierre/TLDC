@@ -508,7 +508,7 @@
                     {
                         label: 'Video Plays',
                         data: series.videoPlays,
-                        borderColor: '#0f2b5e',
+                        borderColor: '#00283c',
                         backgroundColor: 'rgba(15, 43, 94, 0.08)',
                         tension: 0.35,
                         fill: true,

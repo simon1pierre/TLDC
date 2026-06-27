@@ -6,10 +6,10 @@
   $siteDescription = $siteSettings?->translated('site_description')
     ?: __('messages.site.description');
   $siteTitle = trim($siteName . ' | ' . $siteTagline, ' |');
-  $logoPath = $siteSettings?->logo ? asset('storage/' . $siteSettings->logo) : asset('images/logo.png');
+  $logoPath = $siteSettings?->logo ? asset('storage/' . $siteSettings->logo) : asset('logo/New/THE LAST DAYS COVENANTS Logo.png');
   $faviconPath = $siteSettings?->favicon ? asset('storage/' . $siteSettings->favicon) : asset('logo/favicon-32x32.png');
   $faviconPathSmall = $siteSettings?->favicon ? asset('storage/' . $siteSettings->favicon) : asset('logo/favicon-16x16.png');
-  $contactEmail = $siteSettings?->contact_email ?: 'contact@beaconsofgod.org';
+  $contactEmail = $siteSettings?->contact_email ?: 'contact@thelastdayscovenants.org';
   $contactAddress = $siteSettings?->contact_address ?: 'Global Online Ministry';
   $footerText = $siteSettings?->translated('footer_text')
     ?: __('messages.site.footer_text');
@@ -32,15 +32,16 @@
   $currentLocale = app()->getLocale();
   $isHome = request()->routeIs('home');
   $homeUrl = route('home');
-  $resourcesLink = $isHome ? '#resources' : $homeUrl . '#resources';
+  $resourcesLink = route('resources');
   $sermonsLink = $isHome ? '#sermons' : $homeUrl . '#sermons';
   $homeAboutLink = $isHome ? '#about' : $homeUrl . '#about';
-  $themeColor = $siteSettings?->primary_color ?: '#0f2b5e';
+  $themeColor = $siteSettings?->primary_color ?: '#00283c';
   $tawkEnabled = (bool) ($siteSettings?->live_chat_enabled ?? false);
   $tawkProperty = $siteSettings?->tawk_property_id;
   $tawkWidget = $siteSettings?->tawk_widget_id;
 @endphp
 <head>
+  <script>if(localStorage.getItem('dark')==='true'||(!localStorage.getItem('dark')&&window.matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.classList.add('dark')</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ $siteTitle }}</title>
@@ -52,7 +53,7 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="manifest" href="{{ asset('manifest.json') }}">
-  <link rel="canonical" href="https://beaconsofgod.org">
+  <link rel="canonical" href="https://thelastdayscovenants.org">
  <!-- Favicon -->
 <link rel="icon" type="image/png" sizes="18x18" href="{{ $faviconPathSmall }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ $faviconPath }}">
@@ -63,18 +64,18 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://beaconsofgod.org">
+  <meta property="og:url" content="https://thelastdayscovenants.org">
   <meta property="og:title" content="{{ $siteTitle }}">
   <meta property="og:description" content="{{ $siteDescription }}">
-  <meta property="og:image" content="https://beaconsofgod.org/og-image.jpg">
+  <meta property="og:image" content="https://thelastdayscovenants.org/og-image.jpg">
 
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://beaconsofgod.org">
+  <meta property="twitter:url" content="https://thelastdayscovenants.org">
   <meta property="twitter:title" content="{{ $siteTitle }}">
   <meta property="twitter:description" content="{{ $siteDescription }}">
-  <meta property="twitter:image" content="https://beaconsofgod.org/twitter-image.jpg">
+  <meta property="twitter:image" content="https://thelastdayscovenants.org/twitter-image.jpg">
 
 
   <!-- Fonts -->
@@ -88,57 +89,62 @@
   <script src="https://unpkg.com/lucide@latest"></script>
 
 
-  
-
 
   <style>
-    /* Wider audience layout on laptop/desktop to avoid large empty side space */
-    .container {
-      max-width: none !important;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    /* Custom styles for the divine atmosphere */
     body {
       background-color: #f8fafc;
       color: #1e293b;
     }
-    .glass-nav {
-      background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid rgba(15, 43, 94, 0.05);
+
+    .paper-lines {
+      --paper-h: rgba(0, 40, 60, 0.08);
+      --paper-v: rgba(0, 40, 60, 0.035);
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 27px,
+          var(--paper-h) 27px,
+          var(--paper-h) 28px
+        ),
+        repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 27px,
+          var(--paper-v) 27px,
+          var(--paper-v) 28px
+        );
+      background-size: 28px 28px;
     }
-    /* Dove Animation Utilities for Hero Section usage */
-    .dove-container {
+
+    @media (prefers-color-scheme: dark) {
+      .paper-lines {
+        --paper-h: rgba(148, 163, 184, 0.055);
+        --paper-v: rgba(148, 163, 184, 0.025);
+      }
+    }
+
+    .hero-paper::before {
+      content: '';
       position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
-      overflow: hidden;
+      inset: 0;
       pointer-events: none;
-      z-index: 0;
-    }
-    .dove {
-      position: absolute;
-      opacity: 0.4;
-      filter: blur(1px);
-      animation: fly-across 25s linear infinite;
-    }
-    @keyframes fly-across {
-      0% { transform: translate(-10vw, 10vh) scale(0.8) rotate(5deg); opacity: 0; }
-      10% { opacity: 0.6; }
-      90% { opacity: 0.6; }
-      100% { transform: translate(110vw, -20vh) scale(1) rotate(0deg); opacity: 0; }
-    }
-    .light-ray {
-      position: absolute;
-      top: -50%;
-      left: -50%;
-      width: 200%;
-      height: 200%;
-      background: conic-gradient(from 0deg, transparent 0deg, rgba(255,255,255,0.1) 20deg, transparent 40deg, rgba(255,255,255,0.1) 60deg, transparent 80deg);
-      animation: spin 120s linear infinite;
-      pointer-events: none;
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 27px,
+          rgba(255, 255, 255, 0.035) 27px,
+          rgba(255, 255, 255, 0.035) 28px
+        ),
+        repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 27px,
+          rgba(255, 255, 255, 0.02) 27px,
+          rgba(255, 255, 255, 0.02) 28px
+        );
+      background-size: 28px 28px;
     }
 
 
@@ -539,28 +545,7 @@
       50% { transform: translate3d(0, -18px, 0) scale(1.04); }
     }
 
-    [data-reveal] {
-      opacity: 0;
-      transform: translate3d(0, 22px, 0);
-      transition:
-        opacity 720ms cubic-bezier(0.2, 0.7, 0.2, 1),
-        transform 720ms cubic-bezier(0.2, 0.7, 0.2, 1);
-      transition-delay: var(--reveal-delay, 0ms);
-      will-change: opacity, transform;
-    }
 
-    [data-reveal="left"] {
-      transform: translate3d(-20px, 0, 0);
-    }
-
-    [data-reveal="right"] {
-      transform: translate3d(20px, 0, 0);
-    }
-
-    [data-reveal].is-visible {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
 
     .interactive-card {
       transition:
@@ -572,196 +557,79 @@
 
     .interactive-card:hover {
       transform: translate3d(0, -8px, 0);
-      box-shadow: 0 18px 36px rgba(15, 43, 94, 0.13);
-      border-color: rgba(15, 43, 94, 0.2);
+      box-shadow: 0 18px 36px rgba(0, 40, 60, 0.13);
+      border-color: rgba(0, 40, 60, 0.2);
     }
 
-    @media (prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-      }
-
-      [data-reveal] {
-        opacity: 1 !important;
-        transform: none !important;
-      }
+    [data-tap-reveal].is-active .tap-overlay,
+    [data-tap-reveal]:focus-within .tap-overlay {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
     }
 
-    .page-loader {
-      position: fixed;
-      inset: 0;
-      z-index: 9999;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background:
-        radial-gradient(circle at 18% 15%, rgba(15, 43, 94, 0.25), transparent 42%),
-        radial-gradient(circle at 82% 82%, rgba(212, 175, 55, 0.22), transparent 38%),
-        rgba(248, 250, 252, 0.94);
-      transition: opacity 260ms ease, visibility 260ms ease;
+    @keyframes pulse-slow {
+      0%, 100% { opacity: 0.15; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(1.05); }
     }
 
-    .page-loader.hidden {
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
+    @keyframes pulse-slower {
+      0%, 100% { opacity: 0.08; transform: scale(1); }
+      50% { opacity: 0.18; transform: scale(1.08); }
     }
 
-    .loader-card {
-      min-width: 240px;
-      max-width: 86vw;
-      border-radius: 1.2rem;
-      border: 1px solid rgba(15, 43, 94, 0.12);
-      background: rgba(255, 255, 255, 0.94);
-      box-shadow: 0 22px 50px rgba(15, 23, 42, 0.16);
-      padding: 1.2rem 1.4rem;
-      text-align: center;
-      backdrop-filter: blur(10px);
+    @keyframes scroll-bounce {
+      0%, 100% { transform: translateY(0); opacity: 0.6; }
+      50% { transform: translateY(6px); opacity: 1; }
     }
 
-    .loader-core {
-      width: 62px;
-      height: 62px;
-      margin: 0 auto .7rem auto;
-      border-radius: 9999px;
-      border: 3px solid rgba(15, 43, 94, 0.12);
-      border-top-color: rgba(15, 43, 94, 0.95);
-      animation: spin 1s linear infinite;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: inset 0 0 0 6px rgba(15, 43, 94, 0.03);
+    @keyframes mesh-shift {
+      0% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(2%, -1%) scale(1.02); }
+      66% { transform: translate(-1%, 2%) scale(0.98); }
+      100% { transform: translate(0, 0) scale(1); }
     }
 
-    .loader-logo {
-      width: 24px;
-      height: 24px;
-      object-fit: contain;
-      border-radius: 9999px;
-      background: #fff;
-      padding: 2px;
+    @keyframes count-up {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    .loader-text {
-      font-size: .86rem;
-      color: #0f2b5e;
-      font-weight: 600;
-      letter-spacing: .01em;
+    @keyframes gold-shimmer {
+      0% { background-position: -200% center; }
+      100% { background-position: 200% center; }
     }
 
-    .loader-subtext {
-      margin-top: .2rem;
-      font-size: .72rem;
-      color: #64748b;
+    .animate-pulse-slow { animation: pulse-slow 6s ease-in-out infinite; }
+    .animate-pulse-slower { animation: pulse-slower 8s ease-in-out infinite; }
+    .animate-scroll-bounce { animation: scroll-bounce 2s ease-in-out infinite; }
+    .animate-mesh { animation: mesh-shift 12s ease-in-out infinite; }
+    .animate-mesh-reverse { animation: mesh-shift 15s ease-in-out infinite reverse; }
+    .animate-count-up { animation: count-up 0.6s ease-out forwards; }
+    .animate-gold-shimmer { background-size: 200% auto; animation: gold-shimmer 3s linear infinite; }
+
+    .stat-item { opacity: 0; }
+    .stat-item.is-visible { animation: count-up 0.6s ease-out forwards; }
+    .stat-item:nth-child(2) { animation-delay: 0.15s; }
+    .stat-item:nth-child(3) { animation-delay: 0.3s; }
+
+    .video-play-btn {
+      transition: all 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+    }
+    .video-play-btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 30px rgba(220, 200, 160, 0.4);
     }
 
-    .loader-dots {
-      display: flex;
-      justify-content: center;
-      gap: .35rem;
-      margin-top: .6rem;
+    .sticky-cta {
+      transition: transform 0.3s ease;
     }
-
-    .loader-dots span {
-      width: 6px;
-      height: 6px;
-      border-radius: 9999px;
-      background: rgba(15, 43, 94, 0.6);
-      animation: dot-bounce 0.9s ease-in-out infinite;
-    }
-
-    .loader-dots span:nth-child(2) { animation-delay: 0.15s; }
-    .loader-dots span:nth-child(3) { animation-delay: 0.3s; }
-
-    @keyframes dot-bounce {
-      0%, 100% { transform: translateY(0); opacity: .6; }
-      50% { transform: translateY(-4px); opacity: 1; }
-    }
-
-    .route-progress {
-      position: fixed;
-      top: 0;
-      left: 0;
-      height: 3px;
-      width: 0%;
-      z-index: 9998;
-      background: linear-gradient(90deg, #0f2b5e, #d4af37);
-      box-shadow: 0 0 12px rgba(15, 43, 94, 0.35);
-      transition: width 240ms ease;
-    }
-
-    .media-skeleton {
-      position: relative;
-      overflow: hidden;
-      background: #e2e8f0 !important;
-    }
-
-    .media-skeleton::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      transform: translateX(-100%);
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.58), transparent);
-      animation: shimmer-slide 1.25s infinite;
-    }
-
-    @keyframes shimmer-slide {
-      100% { transform: translateX(100%); }
-    }
-
-    .toast-wrap {
-      position: fixed;
-      top: 5rem;
-      right: 1rem;
-      z-index: 9997;
-      display: flex;
-      flex-direction: column;
-      gap: 0.6rem;
-      max-width: min(24rem, calc(100vw - 1.5rem));
-    }
-
-    .toast-item {
-      border-radius: 0.75rem;
-      border: 1px solid rgba(15, 43, 94, 0.12);
-      background: rgba(255, 255, 255, 0.96);
-      box-shadow: 0 12px 28px rgba(15, 23, 42, 0.15);
-      padding: 0.75rem 0.9rem;
-      font-size: 0.82rem;
-      color: #1e293b;
-      transform: translateY(-8px);
-      opacity: 0;
-      animation: toast-in 240ms ease forwards;
-    }
-
-    .toast-item.success { border-left: 4px solid #10b981; }
-    .toast-item.error { border-left: 4px solid #ef4444; }
-    .toast-item.info { border-left: 4px solid #3b82f6; }
-
-    @keyframes toast-in {
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
+    .sticky-cta.hidden-cta {
+      transform: translateY(100%);
     }
   </style>
 </head>
 <body class="font-sans antialiased flex flex-col min-h-screen relative">
   <div id="routeProgress" class="route-progress" aria-hidden="true"></div>
-  <div id="pageLoader" class="page-loader" aria-live="polite" aria-label="{{ __('messages.site.loading') }}">
-    <div class="loader-card">
-      <div class="loader-core">
-        <img src="{{ $logoPath }}" alt="{{ $siteName }}" class="loader-logo">
-      </div>
-      <div class="loader-text">{{ __('messages.site.loading') }}</div>
-      <div id="pageLoaderHint" class="loader-subtext">Preparing an engaging experience...</div>
-      <div class="loader-dots" aria-hidden="true">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
-  </div>
   <div id="toastWrap" class="toast-wrap" aria-live="polite" aria-atomic="true"></div>
   <div class="ambient-stage" aria-hidden="true">
     <div class="ambient-orb ambient-orb--one"></div>
@@ -772,40 +640,41 @@
 
   <!-- Header -->
   <header class="glass-nav sticky top-0 z-50 transition-all duration-300 shadow-sm">
-    <div class="container mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
+    <div class="container mx-auto px-3 sm:px-4 py-3 flex items-center justify-between">
       <!-- Logo & Branding -->
-      <a href="/" class="flex items-center gap-2 sm:gap-3 group shrink-0">
+      <a href="/" class="flex items-center gap-2 sm:gap-2 group shrink-0">
         <img
           src="{{ $logoPath }}"
           alt="{{ $siteName }} Logo"
-          class="h-10 w-auto sm:h-12 transition-transform duration-300 group-hover:scale-105"
+          class="h-9 w-auto sm:h-10 transition-transform duration-300 group-hover:scale-105"
         />
-        <div class="hidden sm:block">
-          <div class="font-serif text-base sm:text-lg font-bold text-brand-blue leading-tight">Beacons of God Ministries</div>
-        </div>
+          <div class="hidden sm:block">
+            <div class="font-serif text-sm sm:text-base font-bold text-brand-blue dark:text-brand-gold leading-tight">THE LAST DAYS COVENANTS</div>
+          </div>
       </a>
 
 
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center gap-1">
-        <a href="{{ $homeUrl }}" class="px-4 py-2 text-slate-700 hover:text-brand-blue font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue">{{ __('messages.nav.home') }}</a>
-        <a href="{{ $resourcesLink }}" class="px-4 py-2 text-slate-700 hover:text-brand-blue font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue">{{ __('messages.nav.resources') }}</a>
-        <a href="{{ $sermonsLink }}" class="px-4 py-2 text-slate-700 hover:text-brand-blue font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue">{{ __('messages.nav.sermons') }}</a>
-        <a href="{{ route('devotionals.index') }}" class="px-4 py-2 text-slate-700 hover:text-brand-blue font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue">{{ __('messages.nav.devotionals') }}</a>
-        <a href="{{ route('about') }}" class="px-4 py-2 text-slate-700 hover:text-brand-blue font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue">{{ __('messages.nav.about') }}</a>
-        <a href="{{ route('contact') }}" class="px-4 py-2 text-slate-700 hover:text-brand-blue font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue">{{ __('messages.nav.contact') }}</a>
+      <nav class="hidden lg:flex items-center gap-0.5">
+        <a href="{{ $homeUrl }}" class="px-2.5 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue inline-flex items-center gap-1.5 whitespace-nowrap text-sm"><span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="home" class="w-3 h-3 text-white"></i></span> {{ __('messages.nav.home') }}</a>
+        <a href="{{ $resourcesLink }}" class="px-2.5 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue inline-flex items-center gap-1.5 whitespace-nowrap text-sm"><span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="book-open" class="w-3 h-3 text-white"></i></span> {{ __('messages.nav.resources') }}</a>
+        <a href="{{ $sermonsLink }}" class="px-2.5 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue inline-flex items-center gap-1.5 whitespace-nowrap text-sm"><span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="play-circle" class="w-3 h-3 text-white"></i></span> {{ __('messages.nav.sermons') }}</a>
+        <a href="{{ route('devotionals.index') }}" class="px-2.5 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue inline-flex items-center gap-1.5 whitespace-nowrap text-sm"><span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="sunrise" class="w-3 h-3 text-white"></i></span> {{ __('messages.nav.devotionals') }}</a>
+        <a href="{{ route('about') }}" class="px-2.5 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue inline-flex items-center gap-1.5 whitespace-nowrap text-sm"><span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="info" class="w-3 h-3 text-white"></i></span> {{ __('messages.nav.about') }}</a>
+        <a href="{{ route('contact') }}" class="px-2.5 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold font-medium transition-all duration-200 border-b-2 border-transparent hover:border-brand-blue inline-flex items-center gap-1.5 whitespace-nowrap text-sm"><span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="mail" class="w-3 h-3 text-white"></i></span> {{ __('messages.nav.contact') }}</a>
       </nav>
 
 
-      <!-- CTA, Language Switcher & Mobile Menu Toggle -->
-      <div class="flex items-center gap-2 sm:gap-4">
-        <a href="#newslatter" class="hidden md:inline-flex items-center justify-center px-4 sm:px-6 py-2 text-xs sm:text-sm font-semibold text-white bg-blue-950 rounded-full hover:bg-blue-800 transition-all duration-200 shadow-md hover:shadow-lg hover:-translate-y-0.5">
-          {{ __('messages.nav.join_ministry') }}
-        </a>
-        <div class="hidden sm:block">
+      <!-- CTA, Dark Mode Toggle, Language Switcher & Mobile Menu Toggle -->
+      <div class="flex items-center gap-1.5 sm:gap-2">
+        <button id="dark-mode-toggle" class="w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 dark:bg-slate-700 dark:hover:bg-slate-600 inline-flex items-center justify-center shrink-0 transition-colors duration-200" aria-label="Toggle dark mode"></button>
+        <div class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-slate-200 bg-white dark:bg-slate-800 dark:border-slate-600">
+          <span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0">
+            <i data-lucide="globe" class="w-3 h-3 text-white"></i>
+          </span>
           <select
             onchange="window.location.href=this.value"
-            class="px-3 py-2 rounded-full border border-slate-200 text-xs sm:text-sm text-slate-700 bg-white"
+            class="text-xs sm:text-sm text-slate-700 dark:text-slate-200 bg-transparent border-none outline-none focus:outline-none p-0 m-0 cursor-pointer"
             aria-label="Language"
           >
             <option value="{{ route('locale.switch', 'rw') }}" {{ $currentLocale === 'rw' ? 'selected' : '' }}>Kinyarwanda</option>
@@ -815,7 +684,7 @@
         </div>
         <button
           id="mobile-menu-toggle"
-          class="lg:hidden inline-flex flex-col items-center justify-center w-10 h-10 rounded-lg text-slate-700 hover:bg-slate-100 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-brand-blue"
+          class="lg:hidden inline-flex flex-col items-center justify-center w-10 h-10 rounded-lg text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-brand-blue"
           aria-label="Toggle navigation menu"
         >
           <!-- Hamburger Menu Icon (3 lines) -->
@@ -828,29 +697,58 @@
 
 
     <!-- Mobile Navigation Menu (Hidden by default) -->
-    <nav id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200">
+    <nav id="mobile-menu" class="hidden lg:hidden bg-surface dark:bg-slate-800 border-t border-slate-200 dark:border-slate-700">
       <div class="container mx-auto px-4 sm:px-6 py-3 space-y-2">
-        <a href="{{ $homeUrl }}" class="block px-4 py-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-lg font-medium transition-colors duration-200">{{ __('messages.nav.home') }}</a>
-        <a href="{{ $resourcesLink }}" class="block px-4 py-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-lg font-medium transition-colors duration-200">{{ __('messages.nav.resources') }}</a>
-        <a href="{{ $sermonsLink }}" class="block px-4 py-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-lg font-medium transition-colors duration-200">{{ __('messages.nav.sermons') }}</a>
-        <a href="{{ route('devotionals.index') }}" class="block px-4 py-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-lg font-medium transition-colors duration-200">{{ __('messages.nav.devotionals') }}</a>
-        <a href="{{ route('about') }}" class="block px-4 py-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-lg font-medium transition-colors duration-200">{{ __('messages.nav.about') }}</a>
-        <a href="{{ route('contact') }}" class="block px-4 py-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-lg font-medium transition-colors duration-200">{{ __('messages.nav.contact') }}</a>
-        <a href="#newsletter" class="block w-full mt-3 px-4 py-2 text-center text-white bg-brand-blue rounded-lg font-semibold hover:bg-blue-800 transition-colors duration-200">{{ __('messages.nav.join_ministry') }}</a>
-        <div class="mt-3">
-          <label class="block text-xs font-semibold uppercase tracking-wide text-slate-500 mb-1">{{ __('messages.nav.language') }}</label>
-          <select
-            onchange="window.location.href=this.value"
-            class="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm text-slate-700 bg-white"
-            aria-label="Language"
-          >
-            <option value="{{ route('locale.switch', 'rw') }}" {{ $currentLocale === 'rw' ? 'selected' : '' }}>Kinyarwanda</option>
-            <option value="{{ route('locale.switch', 'en') }}" {{ $currentLocale === 'en' ? 'selected' : '' }}>English</option>
-            <option value="{{ route('locale.switch', 'fr') }}" {{ $currentLocale === 'fr' ? 'selected' : '' }}>Fran�ais</option>
-          </select>
+        <a href="{{ $homeUrl }}" class="block px-4 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="home" class="w-3.5 h-3.5 text-white"></i></span> {{ __('messages.nav.home') }}</a>
+        <a href="{{ $resourcesLink }}" class="block px-4 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="book-open" class="w-3.5 h-3.5 text-white"></i></span> {{ __('messages.nav.resources') }}</a>
+        <a href="{{ $sermonsLink }}" class="block px-4 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="play-circle" class="w-3.5 h-3.5 text-white"></i></span> {{ __('messages.nav.sermons') }}</a>
+        <a href="{{ route('devotionals.index') }}" class="block px-4 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="sunrise" class="w-3.5 h-3.5 text-white"></i></span> {{ __('messages.nav.devotionals') }}</a>
+        <a href="{{ route('about') }}" class="block px-4 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="info" class="w-3.5 h-3.5 text-white"></i></span> {{ __('messages.nav.about') }}</a>
+        <a href="{{ route('contact') }}" class="block px-4 py-2 text-slate-700 dark:text-slate-300 hover:text-brand-blue dark:hover:text-brand-gold hover:bg-slate-50 dark:hover:bg-slate-700 rounded-lg font-medium transition-colors duration-200 inline-flex items-center gap-2"><span class="w-6 h-6 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0"><i data-lucide="mail" class="w-3.5 h-3.5 text-white"></i></span> {{ __('messages.nav.contact') }}</a>
+        <div class="mt-3 pt-3 border-t border-slate-200 dark:border-slate-700">
+          <label class="block text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-2">{{ __('messages.nav.language') }}</label>
+          <div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-600 bg-white dark:bg-slate-700">
+            <span class="w-5 h-5 rounded-full bg-brand-blue inline-flex items-center justify-center shrink-0">
+              <i data-lucide="globe" class="w-3 h-3 text-white"></i>
+            </span>
+            <select
+              onchange="window.location.href=this.value"
+              class="w-full text-sm text-slate-700 dark:text-slate-200 bg-transparent border-none outline-none focus:outline-none p-0 m-0 cursor-pointer"
+              aria-label="Language"
+            >
+              <option value="{{ route('locale.switch', 'rw') }}" {{ $currentLocale === 'rw' ? 'selected' : '' }}>Kinyarwanda</option>
+              <option value="{{ route('locale.switch', 'en') }}" {{ $currentLocale === 'en' ? 'selected' : '' }}>English</option>
+              <option value="{{ route('locale.switch', 'fr') }}" {{ $currentLocale === 'fr' ? 'selected' : '' }}>Français</option>
+            </select>
+          </div>
         </div>
       </div>
     </nav>
+
+    @if (!empty($activeBanners) && count($activeBanners) > 0)
+    <div id="headerBanner" class="header-banner">
+      <div class="header-banner-inner">
+        @foreach ($activeBanners as $index => $banner)
+          @php
+            $bgColor = $banner->background_color ?: '#00283c';
+            $textColor = $banner->text_color ?: '#ffffff';
+            $translatedContent = $banner->translated('content');
+          @endphp
+          <div class="header-banner-slide @if ($banner->link) has-link @endif {{ $index === 0 ? 'active' : '' }}"
+               data-banner-id="{{ $banner->id }}"
+               data-banner-key="banner_dismiss_{{ $banner->id }}"
+               style="background-color: {{ $bgColor }}; color: {{ $textColor }}; {{ $index !== 0 ? 'display: none;' : '' }}">
+            @if ($banner->link)
+              <a href="{{ $banner->link }}" class="header-banner-link" style="color: {{ $textColor }};" target="_blank" rel="noopener">{{ $translatedContent }}</a>
+            @else
+              <span class="header-banner-text">{{ $translatedContent }}</span>
+            @endif
+            <button class="header-banner-close" aria-label="Dismiss announcement">&times;</button>
+          </div>
+        @endforeach
+      </div>
+    </div>
+    @endif
   </header>
 
 
@@ -877,7 +775,7 @@
     @yield('contents')
   <!-- Footer -->
   <footer class="bg-blue-950 text-slate-300 py-12 border-t border-blue-950">
-    <div class="container mx-auto px-6">
+    <div class="container mx-auto px-4 sm:px-6">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
         <!-- Brand Column -->
         <div class="col-span-1 md:col-span-1">
@@ -933,10 +831,10 @@
               <span>{{ $contactAddress }}</span>
             </li>
             <li class="flex flex-wrap gap-3 mt-2">
-              <a href="{{ $youtubeUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-red-600/90 text-white flex items-center justify-center hover:bg-red-700 transition-colors"><i data-lucide="youtube" class="w-4 h-4"></i></a>
-              <a href="{{ $facebookUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-blue-600/90 text-white flex items-center justify-center hover:bg-blue-700 transition-colors"><i data-lucide="facebook" class="w-4 h-4"></i></a>
-              <a href="{{ $instagramUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-pink-600/90 text-white flex items-center justify-center hover:bg-pink-700 transition-colors"><i data-lucide="instagram" class="w-4 h-4"></i></a>
-              <a href="{{ $twitterUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-slate-900/90 text-white flex items-center justify-center hover:bg-slate-900 transition-colors"><i data-lucide="twitter" class="w-4 h-4"></i></a>
+              <a href="{{ $youtubeUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-red-600/90 text-white flex items-center justify-center hover:bg-red-700 transition-colors"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+              <a href="{{ $facebookUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-blue-600/90 text-white flex items-center justify-center hover:bg-blue-700 transition-colors"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+              <a href="{{ $instagramUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-pink-600/90 text-white flex items-center justify-center hover:bg-pink-700 transition-colors"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+              <a href="{{ $twitterUrl }}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-slate-900/90 text-white flex items-center justify-center hover:bg-slate-900 transition-colors"><svg viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
               <a href="https://wa.me/+25{{$whatsappUrl}}" target="_blank" rel="noopener" class="w-9 h-9 rounded-full bg-emerald-500/90 text-white flex items-center justify-center hover:bg-emerald-600 transition-colors"><i data-lucide="message-circle" class="w-4 h-4"></i></a>
             </li>
           </ul>
@@ -950,71 +848,11 @@
       </div>
     </div>
   </footer>
-
-  <!-- PWA Install Button + Modal -->
-  <button
-    id="pwa-install-button"
-    class="fixed bottom-5 right-4 sm:right-6 z-50 flex items-center justify-center gap-3 px-5 py-3 bg-white/95 text-slate-900 text-sm font-semibold rounded-full shadow-xl border border-white/60 backdrop-blur hover:-translate-y-0.5 hover:shadow-2xl transition-all"
-    type="button"
-  >
-    <span class="flex items-center justify-center w-9 h-9 rounded-full bg-blue-900/10">
-      <img src="{{ $logoPath }}" alt="{{ $siteName }}" class="w-6 h-6 object-contain">
-    </span>
-    <span>{{ __('messages.site.install_app') }}</span>
-  </button>
-  <div id="pwa-install-modal" class="hidden fixed inset-0 z-50 items-center justify-center bg-slate-900/70 px-4">
-    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl">
-      <div class="flex items-start justify-between gap-4 mb-4">
-        <div class="flex items-center gap-3">
-          <div class="w-14 h-14 rounded-2xl bg-blue-900/10 flex items-center justify-center">
-            <img src="{{ $logoPath }}" alt="{{ $siteName }}" class="w-9 h-9 object-contain">
-          </div>
-          <div>
-            <h3 class="text-lg sm:text-xl font-semibold text-slate-900">{{ __('messages.site.install_title') }}</h3>
-            <p class="text-xs text-slate-500">Beacons of God Ministries</p>
-          </div>
-        </div>
-        <button id="pwa-install-close" class="text-slate-400 hover:text-slate-900" type="button" aria-label="Close">
-          <svg viewBox="0 0 24 24" class="w-5 h-5" aria-hidden="true"><path fill="currentColor" d="M18.3 5.71L12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.29 19.71 2.88 18.3 9.17 12 2.88 5.71 4.29 4.29 10.59 10.6l6.3-6.31z"/></svg>
-        </button>
-      </div>
-      <p class="text-sm text-slate-600 mb-5" id="pwa-install-copy">
-        {{ __('messages.site.install_prompt', ['name' => $siteName]) }}
-      </p>
-      <p class="hidden text-xs text-slate-500 mb-5" id="pwa-install-ios">
-        On iPhone/iPad: tap Share, then “Add to Home Screen”.
-      </p>
-      <p class="hidden text-xs text-slate-500 mb-5" id="pwa-install-desktop">
-        On desktop Chrome/Edge: open the browser menu (⋮) and choose “Install app”.
-      </p>
-      <div class="grid gap-3 mb-6 sm:grid-cols-2">
-        <div class="flex items-start gap-3 rounded-2xl border border-slate-100 bg-slate-50 px-3 py-3">
-          <span class="text-blue-900 text-sm font-semibold">1</span>
-          <div>
-            <div class="text-sm font-semibold text-slate-900">Instant Access</div>
-            <div class="text-xs text-slate-500">Open sermons, books, and devotionals faster.</div>
-          </div>
-        </div>
-        <div class="flex items-start gap-3 rounded-2xl border border-slate-100 bg-slate-50 px-3 py-3">
-          <span class="text-blue-900 text-sm font-semibold">2</span>
-          <div>
-            <div class="text-sm font-semibold text-slate-900">App-like Experience</div>
-            <div class="text-xs text-slate-500">Full screen, smooth navigation, saved session.</div>
-          </div>
-        </div>
-      </div>
-      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-end gap-2">
-        <button id="pwa-install-later" class="px-4 py-2 text-sm rounded-lg border border-slate-200 text-slate-700 hover:bg-slate-50" type="button">
-          {{ __('messages.site.later') }}
-        </button>
-        <button id="pwa-install-now" class="px-4 py-2 text-sm rounded-lg bg-blue-900 text-white hover:bg-blue-800" type="button">
-          {{ __('messages.site.install') }}
-        </button>
-      </div>
-    </div>
+  <div class="fixed inset-0 z-[2] pointer-events-none overflow-hidden" aria-hidden="true">
+    <video autoplay muted loop playsinline class="w-full h-full object-cover opacity-[0.2] mix-blend-soft-light">
+      <source src="/headerbackground.mp4" type="video/mp4">
+    </video>
   </div>
-
-
   <!-- Scroll Animation Trigger Script -->
   <script>
     (() => {
@@ -1037,7 +875,7 @@
         section.querySelectorAll('h1, h2').forEach((element, index) => {
           pushReveal(element, index * 60, index % 2 === 0 ? 'left' : 'right');
         });
-        section.querySelectorAll('.bg-white.rounded-2xl, .bg-white.rounded-xl, article.rounded-2xl').forEach((element, index) => {
+        section.querySelectorAll('.bg-surface-card.rounded-2xl, .bg-surface-card.rounded-xl, article.rounded-2xl').forEach((element, index) => {
           pushReveal(element, Math.min((index % 6) * 80, 400), 'up');
           element.classList.add('interactive-card');
         });
@@ -1081,14 +919,6 @@
       }
     })();
   </script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('{{ asset('sw.js') }}', { scope: '/' })
-          .catch(() => {});
-      });
-    }
-  </script>
   @if ($tawkEnabled && $tawkProperty && $tawkWidget)
     <script>
       var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
@@ -1100,103 +930,35 @@
         s1.setAttribute("crossorigin", "*");
         s0.parentNode.insertBefore(s1, s0);
       })();
-    </script>
-  @endif
-  <script>
-    let deferredPrompt = null;
-    const installButton = document.getElementById('pwa-install-button');
-    const installModal = document.getElementById('pwa-install-modal');
-    const installNow = document.getElementById('pwa-install-now');
-    const installLater = document.getElementById('pwa-install-later');
-    const installClose = document.getElementById('pwa-install-close');
-    const iosHint = document.getElementById('pwa-install-ios');
-    const desktopHint = document.getElementById('pwa-install-desktop');
-    const genericCopy = document.getElementById('pwa-install-copy');
-    const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent || '');
-    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
-
-    const showInstallButton = () => installButton?.classList.remove('hidden');
-    const hideInstallButton = () => installButton?.classList.add('hidden');
-
-    window.addEventListener('beforeinstallprompt', (event) => {
-      event.preventDefault();
-      deferredPrompt = event;
-      showInstallButton();
-    });
-
-    function hideInstallModal() {
-      if (installModal) {
-        installModal.classList.add('hidden');
-        installModal.classList.remove('flex');
-      }
-    }
-
-    function showInstallModal() {
-      if (installModal) {
-        installModal.classList.remove('hidden');
-        installModal.classList.add('flex');
-      }
-    }
-
-    if (installButton) {
-      installButton.addEventListener('click', () => {
-        if (!deferredPrompt) {
-          if (isIos) {
-            iosHint?.classList.remove('hidden');
-            desktopHint?.classList.add('hidden');
-          } else {
-            desktopHint?.classList.remove('hidden');
-            iosHint?.classList.add('hidden');
-          }
-          genericCopy?.classList.add('hidden');
-          installNow?.classList.add('hidden');
-        }
-        showInstallModal();
-      });
-    }
-
-    [data-tap-reveal].is-active .tap-overlay,
-    [data-tap-reveal]:focus-within .tap-overlay {
-      opacity: 1 !important;
-      transform: translateY(0) !important;
-    }
-    if (installLater) {
-      installLater.addEventListener('click', hideInstallModal);
-    }
-    if (installClose) {
-      installClose.addEventListener('click', hideInstallModal);
-    }
-    if (installModal) {
-      installModal.addEventListener('click', (event) => {
-        if (event.target === installModal) {
-          hideInstallModal();
-        }
-      });
-    }
-    if (installNow) {
-      installNow.addEventListener('click', async () => {
-        if (!deferredPrompt) return;
-        deferredPrompt.prompt();
-        await deferredPrompt.userChoice;
-        deferredPrompt = null;
-        if (installButton) {
-          installButton.classList.add('hidden');
-        }
-        hideInstallModal();
-      });
-    }
-
-    if (isStandalone) {
-      hideInstallButton();
-    } else {
-      showInstallButton();
-      if (isIos) {
-        iosHint?.classList.remove('hidden');
-        genericCopy?.classList.add('hidden');
-        installNow?.classList.add('hidden');
-      }
-    }
   </script>
+  @endif
+
+  <!-- Dark Mode Toggle Script -->
+  <script>
+    (() => {
+      const btn = document.getElementById('dark-mode-toggle');
+      if (!btn) return;
+
+      const moonSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-slate-600"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>';
+      const sunSvg = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4 text-amber-300"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>';
+
+      const applyDark = (isDark) => {
+        document.documentElement.classList.toggle('dark', isDark);
+        document.body.style.backgroundColor = isDark ? '#0f172a' : '';
+        document.body.style.color = isDark ? '#e2e8f0' : '';
+        btn.innerHTML = isDark ? sunSvg : moonSvg;
+      };
+
+      applyDark(document.documentElement.classList.contains('dark'));
+
+      btn.addEventListener('click', () => {
+        const isDark = !document.documentElement.classList.contains('dark');
+        localStorage.setItem('dark', isDark ? 'true' : 'false');
+        applyDark(isDark);
+      });
+    })();
+  </script>
+
   <script>
     (() => {
       const endpoint = @json(route('content.audience.track'));
@@ -1344,36 +1106,8 @@
   </script>
   <script>
     (() => {
-      const pageLoader = document.getElementById('pageLoader');
-      const pageLoaderHint = document.getElementById('pageLoaderHint');
       const progress = document.getElementById('routeProgress');
       const toastWrap = document.getElementById('toastWrap');
-      let loaderHintTimer = null;
-
-      const hintMessages = [
-        'Preparing an engaging experience...',
-        'Loading content and media...',
-        'Almost ready...'
-      ];
-      let hintIndex = 0;
-
-      if (pageLoaderHint) {
-        loaderHintTimer = setInterval(() => {
-          hintIndex = (hintIndex + 1) % hintMessages.length;
-          pageLoaderHint.textContent = hintMessages[hintIndex];
-        }, 1900);
-      }
-
-      const hideLoader = () => {
-        if (!pageLoader) return;
-        pageLoader.classList.add('hidden');
-        if (loaderHintTimer) {
-          clearInterval(loaderHintTimer);
-          loaderHintTimer = null;
-        }
-      };
-
-      let loaderFailSafe = setTimeout(hideLoader, 3500);
 
       const startProgress = () => {
         if (!progress) return;
@@ -1416,8 +1150,6 @@
 
           if (target === '_blank' || isHash || isJs || isExternal) return;
           startProgress();
-          if (pageLoader) pageLoader.classList.remove('hidden');
-          setTimeout(hideLoader, 4500);
         }, { passive: true });
       });
 
@@ -1458,19 +1190,7 @@
         media.addEventListener('error', markDone, { once: true });
       });
 
-      window.addEventListener('DOMContentLoaded', () => {
-        hideLoader();
-        finishProgress();
-      });
-
-      window.addEventListener('load', () => {
-        hideLoader();
-        finishProgress();
-        if (loaderFailSafe) {
-          clearTimeout(loaderFailSafe);
-          loaderFailSafe = null;
-        }
-      });
+      window.addEventListener('load', finishProgress);
 
       @if (session('status'))
         showToast(@json(session('status')), 'success');
@@ -1513,7 +1233,6 @@
       });
     })();
   </script>
-
 
 </body>
 </html>

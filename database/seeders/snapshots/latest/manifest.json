@@ -1,5 +1,5 @@
 {
-    "exported_at": "2026-03-11 00:46:19",
+    "exported_at": "2026-06-26 20:36:57",
     "connection": "sqlite",
     "tables": [
         {
@@ -12,7 +12,7 @@
         },
         {
             "name": "books",
-            "rows": 8
+            "rows": 24
         },
         {
             "name": "audiobooks",
@@ -36,7 +36,7 @@
         },
         {
             "name": "audience_page_events",
-            "rows": 1249
+            "rows": 1454
         },
         {
             "name": "contact_messages",
@@ -48,7 +48,7 @@
         },
         {
             "name": "content_events",
-            "rows": 886
+            "rows": 896
         },
         {
             "name": "content_likes",
@@ -60,7 +60,7 @@
         },
         {
             "name": "content_translations",
-            "rows": 204
+            "rows": 252
         },
         {
             "name": "devotionals",
@@ -104,11 +104,11 @@
         },
         {
             "name": "user_activity_logs",
-            "rows": 3535
+            "rows": 3887
         },
         {
             "name": "user_login_logs",
-            "rows": 10
+            "rows": 11
         },
         {
             "name": "user_status_logs",
@@ -116,11 +116,11 @@
         },
         {
             "name": "verification_codes",
-            "rows": 13
+            "rows": 14
         },
         {
             "name": "video_events",
-            "rows": 116
+            "rows": 124
         },
         {
             "name": "video_series",

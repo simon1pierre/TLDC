@@ -4,7 +4,7 @@
     <div id="readingProgressBar" class="fixed top-0 left-0 z-[60] h-1 bg-blue-700 transition-all duration-150" style="width:0%"></div>
 
     <section class="pt-20 pb-10 bg-gradient-to-b from-blue-950 to-slate-900 text-white">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="max-w-4xl">
                 <a href="{{ route('devotionals.index') }}" class="inline-flex items-center text-sm text-blue-100 hover:text-white mb-5">
                     &larr; {{ __('messages.devotionals.back_to_list') }}
@@ -26,7 +26,7 @@
     </section>
 
     <section class="py-10">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
                 <article class="lg:col-span-8 bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
                     @if ($devotional->cover_image_url)

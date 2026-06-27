@@ -12,6 +12,7 @@ use App\Models\User;
 use App\Models\Video;
 use App\Models\Audio;
 use App\Models\Audiobook;
+use App\Models\Banner;
 use App\Models\Book;
 use App\Models\ContentCategory;
 use App\Models\Playlist;
@@ -115,6 +116,14 @@ class AppServiceProvider extends ServiceProvider
 
         view()->share('siteSettings', $settings);
 
+        View::composer('layouts.audiences.app', function ($view): void {
+            $activeBanners = [];
+            if (Schema::hasTable('banners')) {
+                $activeBanners = Banner::getActive();
+            }
+            $view->with('activeBanners', $activeBanners);
+        });
+
         View::composer('layouts.admin.partials.nav', function ($view): void {
             $counts = [
                 'users' => 0,
@@ -128,6 +137,7 @@ class AppServiceProvider extends ServiceProvider
                 'video_series' => 0,
                 'devotionals' => 0,
                 'subscribers' => 0,
+                'banners' => 0,
                 'contacts_unread' => 0,
                 'events' => 0,
                 'ministry' => 0,
@@ -154,6 +164,9 @@ class AppServiceProvider extends ServiceProvider
             }
             if (Schema::hasTable('content_categories')) {
                 $counts['categories'] = ContentCategory::query()->count();
+            }
+            if (Schema::hasTable('banners')) {
+                $counts['banners'] = Banner::query()->count();
             }
             if (Schema::hasTable('playlists')) {
                 $counts['playlists'] = Playlist::query()->where('type', 'audio')->count();

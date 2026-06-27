@@ -13,8 +13,8 @@ return new class extends Migration
 {
     Schema::create('settings', function (Blueprint $table) {
         $table->id();
-        $table->string('site_name')->default('Beacons of God Ministries');
-        $table->string('primary_color')->default('#0B5ED7');
+        $table->string('site_name')->default('THE LAST DAYS COVENANTS');
+        $table->string('primary_color')->default('#00283c');
         $table->string('secondary_color')->default('#FFFFFF');
         $table->string('logo')->nullable();
         $table->string('youtube_channel')->nullable();

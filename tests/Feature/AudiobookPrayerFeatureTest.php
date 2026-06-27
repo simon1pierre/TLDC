@@ -1,7 +1,7 @@
 <?php
 
-use App\\Models\\Audiobook;
-use App\\Models\\Book;
+use App\Models\Audiobook;
+use App\Models\Book;
 use App\Models\User;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -129,7 +129,7 @@ test('book reader loads only published linked audiobooks and keeps tts controls'
         ->assertSeeText(__('messages.books.audiobook_while_reading'))
         ->assertSeeText('Published Linked Audio')
         ->assertDontSeeText('Draft Linked Audio')
-        ->assertSeeText(__('messages.common.fullscreen'));
+        ->assertSeeText(__('messages.books.reading_progress'));
 });
 
 test('book reader hides audiobook panel when there are no linked audiobooks', function () {

@@ -17,7 +17,7 @@
                     </tr>
                     <tr>
                         <td style="padding:28px;">
-                            <span style="display:inline-block;background:#0f2b5e;color:#ffffff;font-size:11px;padding:4px 10px;border-radius:999px;letter-spacing:0.5px;">
+                            <span style="display:inline-block;background:#00283c;color:#ffffff;font-size:11px;padding:4px 10px;border-radius:999px;letter-spacing:0.5px;">
                                 {{ strtoupper($type) }} UPDATE
                             </span>
 

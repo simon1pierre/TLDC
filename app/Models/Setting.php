@@ -134,7 +134,7 @@ class Setting extends Model
             'site_name' => config('app.name'),
             'site_tagline' => null,
             'site_description' => null,
-            'primary_color' => '#0f2b5e',
+            'primary_color' => '#00283c',
             'secondary_color' => '#f8fafc',
             'logo' => null,
             'favicon' => null,

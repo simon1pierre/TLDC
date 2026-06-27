@@ -3,7 +3,7 @@
 @section('contents')
 <main class="flex-1 bg-slate-50">
   <section class="bg-gradient-to-b from-brand-blue via-blue-900 to-slate-900 text-white">
-    <div class="container mx-auto px-6 py-16 lg:py-20">
+    <div class="container mx-auto px-4 sm:px-6 py-16 lg:py-20">
       <a href="{{ route('events') }}" class="inline-flex items-center text-sm text-blue-100 hover:text-white mb-6">
         <span class="mr-2">&larr;</span> {{ __('messages.events_show_page.back_to_events') }}
       </a>
@@ -17,7 +17,7 @@
     </div>
   </section>
 
-  <section class="container mx-auto px-6 py-10 lg:py-14">
+  <section class="container mx-auto px-4 sm:px-6 py-10 lg:py-14">
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
       <div class="lg:col-span-2 bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
         <div class="h-64 sm:h-80 bg-slate-100">

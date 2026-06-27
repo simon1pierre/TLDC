@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Login | Beacons of God Ministries</title>
-    <meta name="description" content="Secure administrator access for Beacons of God Ministries.">
+    <title>Admin Login | THE LAST DAYS COVENANTS</title>
+    <meta name="description" content="Secure administrator access for THE LAST DAYS COVENANTS.">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('logo/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('logo/favicon-16x16.png') }}">
 
@@ -18,8 +18,8 @@
 
     <style>
         :root {
-            --brand-blue: #0f2b5e;
-            --brand-gold: #d4af37;
+            --brand-blue: #00283c;
+            --brand-gold: #dcc8a0;
             --brand-light: #f8fafc;
         }
         body {
@@ -137,7 +137,7 @@
                         <i class="feather-shield"></i>
                         Secure Admin Access
                     </div>
-                    <h1>Beacons of God Ministries</h1>
+                    <h1>THE LAST DAYS COVENANTS</h1>
                     <div class="divider"></div>
                     <p class="opacity-75">
                         Welcome back, steward of the ministry. This space is reserved for trusted
@@ -167,7 +167,7 @@
             </div>
             <div class="col-lg-7 login-right">
                 <div class="d-flex align-items-center gap-3 mb-4">
-                    <img src="{{ asset('images/logo.png') }}" alt="Beacons of God Ministries" style="width:56px" class="rounded-circle border border-light shadow-sm bg-white p-1">
+                    <img src="{{ asset('images/logo.png') }}" alt="THE LAST DAYS COVENANTS" style="width:56px" class="rounded-circle border border-light shadow-sm bg-white p-1">
                     <div>
                         <h4 class="mb-1 fw-bold">Administrator Access</h4>
                         <div class="input-hint">Use your ministry email to continue.</div>
@@ -191,7 +191,7 @@
                     @csrf
                     <div class="mb-4">
                         <label class="form-label">Email Address</label>
-                        <input type="email" name="email" value="{{ old('email') }}" class="form-control form-control-lg" placeholder="admin@beaconsofgod.org" required>
+                        <input type="email" name="email" value="{{ old('email') }}" class="form-control form-control-lg" placeholder="admin@thelastdayscovenants.org" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Password</label>

@@ -2,7 +2,7 @@
 @section('contents')
 <main class="grow bg-slate-50">
     <section class="pt-20 pb-10 bg-gradient-to-b from-blue-950 to-slate-900 text-white">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="max-w-3xl">
                 <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-300/30 text-blue-100 text-xs font-medium tracking-widest uppercase mb-4">
                     {{ __('messages.devotionals.badge') }}
@@ -14,7 +14,7 @@
     </section>
 
     <section class="py-10">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <form method="GET" action="{{ route('devotionals.index') }}" class="flex flex-col lg:flex-row lg:items-center gap-3">
                 <div class="w-full lg:max-w-md">
                     <div class="flex items-center gap-2 bg-white border border-slate-200 rounded-full px-4 py-2 shadow-sm">
@@ -36,7 +36,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
                 @forelse ($devotionals as $devotional)
-                    <article class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
+                    <article class="bg-surface-card rounded-2xl shadow-sm border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow">
                         <a href="{{ route('devotionals.show', $devotional) }}" class="block">
                             <div class="aspect-[16/9] bg-slate-100 overflow-hidden">
                                 @if ($devotional->cover_image)

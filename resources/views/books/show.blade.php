@@ -21,7 +21,7 @@
 </style>
 <main id="bookShowMain" class="grow bg-slate-50 min-h-screen">
     <section class="pt-6 pb-4 bg-gradient-to-b from-blue-950 to-slate-900 text-white">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="max-w-4xl">
                 <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-300/30 text-blue-100 text-xs font-medium tracking-widest uppercase mb-4">
                     {{ __('messages.books.badge') }}

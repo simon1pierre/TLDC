@@ -2,7 +2,7 @@
 @section('contents')
 <main class="grow bg-slate-50">
     <section class="pt-20 pb-10 bg-gradient-to-b from-blue-950 to-slate-900 text-white">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="max-w-3xl">
                 <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-300/30 text-blue-100 text-xs font-medium tracking-widest uppercase mb-4">
                     {{ __('messages.videos.badge') }}
@@ -14,7 +14,7 @@
     </section>
 
     <section class="py-10">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="flex flex-col lg:flex-row lg:items-center gap-4 pb-4">
                 <form method="GET" action="{{ route('videos.index') }}" class="w-full lg:max-w-md">
                     <div class="flex items-center gap-2 bg-white border border-slate-200 rounded-full px-4 py-2 shadow-sm">
@@ -94,7 +94,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
                 @forelse ($videos as $video)
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col">
+                    <div class="bg-surface-card rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col" data-video-card-container>
                         <div class="relative aspect-video overflow-hidden" data-video-card data-video-db-id="{{ $video->id }}">
                             @if ($video->thumbnail_url)
                                 <img src="{{ $video->thumbnail_url }}" alt="{{ $video->title }}" class="w-full h-full object-cover">
@@ -203,7 +203,7 @@
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                         @foreach ($recommendedVideos as $video)
-                            <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-100">
+                            <div class="bg-surface-card rounded-2xl overflow-hidden shadow-sm border border-slate-100">
                                 <div class="relative aspect-video overflow-hidden">
                                     @if ($video->thumbnail_url)
                                         <img src="{{ $video->thumbnail_url }}" alt="{{ $video->title }}" class="w-full h-full object-cover">
@@ -234,7 +234,7 @@
     </section>
 
     <div id="videoModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-50 p-4">
-        <div class="bg-white rounded-2xl overflow-hidden w-full max-w-4xl">
+        <div class="bg-surface-card rounded-2xl overflow-hidden w-full max-w-4xl">
             <div class="flex items-center justify-between px-4 py-3 border-b">
                 <h3 id="videoModalTitle" class="font-semibold text-slate-900"></h3>
                 <button type="button" class="text-slate-500 hover:text-slate-900" onclick="closeVideoModal()" aria-label="Close video"><svg viewBox="0 0 24 24" class="w-5 h-5" aria-hidden="true"><path fill="currentColor" d="M18.3 5.71L12 12l6.3 6.29-1.41 1.42L10.59 13.4 4.29 19.71 2.88 18.3 9.17 12 2.88 5.71 4.29 4.29 10.59 10.6l6.3-6.31z"/></svg></button>
@@ -343,7 +343,7 @@
     }
 
     function toggleCommentPanel(button) {
-        const card = button.closest('.bg-white');
+        const card = button.closest('[class*="rounded-2xl"]');
         if (!card) return;
         const panel = card.querySelector('[data-comment-panel]');
         if (!panel) return;
@@ -402,7 +402,7 @@
         .then((res) => res.json())
         .then((data) => {
             if (!data || !data.comment) return;
-            const card = form.closest('.bg-white');
+            const card = form.closest('[data-video-card-container]');
             const list = card ? card.querySelector('[data-comment-list]') : null;
             if (list) {
                 const item = document.createElement('div');

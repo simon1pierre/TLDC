@@ -1,7 +1,7 @@
 <?php
 
 use App\Models\ContentTranslation;
-use App\\Models\\Book;
+use App\Models\Book;
 use App\Services\Translation\ContentTranslationPipeline;
 use App\Services\Translation\TranslationResult;
 use App\Services\Translation\TranslatorInterface;

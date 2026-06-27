@@ -132,6 +132,17 @@
                             </div>
                         </a>
                     </li>
+                    <li class="nxl-item nxl-hasmenu {{ request()->routeIs('admin.banners.*') ? 'active' : '' }}">
+                        <a href="{{ route('admin.banners.index') }}" class="nxl-link">
+                            <div class="d-flex align-items-center justify-content-between w-100">
+                                <div class="d-flex align-items-center">
+                                    <span class="nxl-micon"><i style="color: white" class="feather-flag"></i></span>
+                                    <span class="nxl-mtext" style="color: white">Banners</span>
+                                </div>
+                                <span class="badge bg-light text-dark ms-2">{{ $count('banners') }}</span>
+                            </div>
+                        </a>
+                    </li>
                     <li class="nxl-item nxl-hasmenu {{ $isAnalytics ? 'active' : '' }}">
                         <a href="{{ route('admin.analytics.index') }}" class="nxl-link">
                             <span class="nxl-micon"><i style="color: white" class="feather-activity"></i></span>

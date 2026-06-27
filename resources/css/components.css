@@ -4,8 +4,8 @@
 
 /* Custom brand colors */
 :root {
-  --color-brand-blue: #0f2b5e;
-  --color-brand-gold: #d4af37;
+  --color-brand-blue: #00283c;
+  --color-brand-gold: #dcc8a0;
   --color-brand-off-white: #f8fafc;
 }
 
@@ -21,13 +21,13 @@ body {
 /* Glass effect navbar */
 .glass-nav {
   background: white;
-  border-bottom: 1px solid rgba(15, 43, 94, 0.05);
+  border-bottom: 1px solid rgba(0, 40, 60, 0.05);
 }
 
 /* Header when scrolled */
 .glass-nav.scrolled {
   background: white;
-  border-bottom: 1px solid rgba(15, 43, 94, 0.1);
+  border-bottom: 1px solid rgba(0, 40, 60, 0.1);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
@@ -88,10 +88,10 @@ body {
 /* Glow Pulse Animation */
 @keyframes glow-pulse {
   0%, 100% {
-    box-shadow: 0 0 5px rgba(212, 175, 55, 0.3), inset 0 0 5px rgba(212, 175, 55, 0.1);
+    box-shadow: 0 0 5px rgba(220, 200, 160, 0.3), inset 0 0 5px rgba(220, 200, 160, 0.1);
   }
   50% {
-    box-shadow: 0 0 20px rgba(212, 175, 55, 0.6), inset 0 0 10px rgba(212, 175, 55, 0.2);
+    box-shadow: 0 0 20px rgba(220, 200, 160, 0.6), inset 0 0 10px rgba(220, 200, 160, 0.2);
   }
 }
 
@@ -110,10 +110,10 @@ body {
 /* Background Pulse Animation */
 @keyframes bg-pulse {
   0%, 100% {
-    background-color: rgba(15, 43, 94, 0.02);
+    background-color: rgba(0, 40, 60, 0.02);
   }
   50% {
-    background-color: rgba(15, 43, 94, 0.08);
+    background-color: rgba(0, 40, 60, 0.08);
   }
 }
 
@@ -247,6 +247,104 @@ body {
 
 .animate-stagger > *:nth-child(5) {
   animation-delay: 0.5s;
+}
+
+/* ============================================
+   HEADER BANNER / ANNOUNCEMENT BAR
+   ============================================ */
+
+.header-banner {
+  width: 100%;
+  overflow: hidden;
+  animation: bannerSlideDown 0.5s ease-out;
+}
+
+@keyframes bannerSlideDown {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 80px;
+    opacity: 1;
+  }
+}
+
+.header-banner-slide {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 48px 8px 16px;
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.header-banner-slide.banner-enter {
+  animation: bannerFadeIn 0.6s ease forwards;
+}
+
+.header-banner-slide.banner-exit {
+  animation: bannerFadeOut 0.6s ease forwards;
+}
+
+@keyframes bannerFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bannerFadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+.header-banner-link {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  transition: opacity 0.3s ease;
+}
+
+.header-banner-link:hover {
+  opacity: 0.85;
+}
+
+.header-banner-text {
+  font-weight: 450;
+}
+
+.header-banner-close {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  opacity: 0.75;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+
+.header-banner-close:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* ============================================

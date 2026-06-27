@@ -2,7 +2,7 @@
 @section('contents')
 <main class="grow bg-slate-50">
     <section class="pt-20 pb-10 bg-gradient-to-b from-blue-950 to-slate-900 text-white">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="max-w-3xl">
                 <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-300/30 text-blue-100 text-xs font-medium tracking-widest uppercase mb-4">
                     {{ __('messages.books.badge') }}
@@ -14,7 +14,7 @@
     </section>
 
     <section class="py-10">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="flex flex-col lg:flex-row lg:items-center gap-4 pb-4">
                 <form method="GET" action="{{ route('books.index') }}" class="w-full lg:max-w-md">
                     <div class="flex items-center gap-2 bg-white border border-slate-200 rounded-full px-4 py-2 shadow-sm">
@@ -54,7 +54,7 @@
 
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-6">
                 @forelse ($books as $book)
-                    <article class="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100" data-tap-reveal tabindex="0">
+                    <article class="group bg-surface-card rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100" data-tap-reveal tabindex="0">
                         <div class="relative aspect-[2/3] overflow-hidden bg-slate-100">
                             @if ($book->cover_image)
                                 <img src="{{ asset('storage/'.$book->cover_image) }}" alt="{{ $book->title }}" class="w-full h-full object-cover">

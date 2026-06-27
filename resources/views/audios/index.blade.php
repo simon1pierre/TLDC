@@ -2,7 +2,7 @@
 @section('contents')
 <main class="grow bg-slate-50">
     <section class="pt-20 pb-10 bg-gradient-to-b from-blue-950 to-slate-900 text-white">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="max-w-3xl">
                 <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-300/30 text-blue-100 text-xs font-medium tracking-widest uppercase mb-4">
                     {{ __('messages.audios.badge') }}
@@ -14,7 +14,7 @@
     </section>
 
     <section class="py-10">
-        <div class="container mx-auto px-6">
+        <div class="container mx-auto px-4 sm:px-6">
             <div class="flex flex-col lg:flex-row lg:items-center gap-4 pb-4">
                 <form method="GET" action="{{ route('audios.index') }}" class="w-full lg:max-w-md">
                     <div class="flex items-center gap-2 bg-white border border-slate-200 rounded-full px-4 py-2 shadow-sm">
@@ -54,7 +54,7 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
                 @forelse ($audios as $audio)
-                    <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col">
+                    <div class="bg-surface-card rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-slate-100 flex flex-col">
                         <div class="relative aspect-[3/2] overflow-hidden bg-slate-100 flex items-center justify-center">
                             @if ($audio->thumbnail)
                                 <img src="{{ asset('storage/'.$audio->thumbnail) }}" alt="{{ $audio->title }}" class="w-full h-full object-cover">

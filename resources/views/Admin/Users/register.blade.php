@@ -14,7 +14,7 @@
                         </div>
 
                         <h2 class="fw-bold mb-3">Register Admin</h2>
-                        <h5 class="fw-semibold">Beacons of God Ministries</h5>
+                        <h5 class="fw-semibold">THE LAST DAYS COVENANTS</h5>
 
                         <p class="mt-3 opacity-75">
                             Create an admin account to manage sermons,

@@ -18,6 +18,7 @@ use App\Http\Controllers\Admin\Content\VideoController;
 use App\Http\Controllers\Admin\Content\AudioController;
 use App\Http\Controllers\Admin\Content\DocumentController;
 use App\Http\Controllers\Admin\Content\AudiobookController;
+use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\Admin\Content\CategoryController;
 use App\Http\Controllers\Admin\Content\ContentNotificationController;
 use App\Http\Controllers\Admin\Content\PlaylistController;
@@ -144,6 +145,10 @@ Route::prefix('beacons/admin')->middleware(['auth', 'admin'])->group(function ()
     Route::resource('categories', CategoryController::class)->names('admin.categories');
     Route::post('categories/{category}/restore', [CategoryController::class, 'restore'])->name('admin.categories.restore');
     Route::delete('categories/{category}/force-delete', [CategoryController::class, 'forceDelete'])->name('admin.categories.force-delete');
+
+    Route::resource('banners', BannerController::class)->except(['show'])->names('admin.banners');
+    Route::post('banners/{banner}/restore', [BannerController::class, 'restore'])->name('admin.banners.restore');
+    Route::delete('banners/{banner}/force-delete', [BannerController::class, 'forceDelete'])->name('admin.banners.force-delete');
 
     Route::get('content-notifications', [ContentNotificationController::class, 'index'])->name('admin.content-notifications.index');
     Route::post('content-notifications/{notification}/resend', [ContentNotificationController::class, 'resend'])->name('admin.content-notifications.resend');

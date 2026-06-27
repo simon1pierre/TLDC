@@ -2,7 +2,7 @@
 
 use App\Models\ContentEvent;
 use App\Models\User;
-use App\\Models\\Book;
+use App\Models\Book;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Hash;
 

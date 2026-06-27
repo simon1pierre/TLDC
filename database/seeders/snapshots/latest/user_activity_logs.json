@@ -35348,5 +35348,3525 @@
         "deleted_at": null,
         "created_at": "2026-03-11 00:43:24",
         "updated_at": "2026-03-11 00:43:24"
+    },
+    {
+        "id": 3536,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:17",
+        "updated_at": "2026-06-26 14:04:17"
+    },
+    {
+        "id": 3537,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"devotionals\",\"route\":\"devotionals.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:17",
+        "updated_at": "2026-06-26 14:04:17"
+    },
+    {
+        "id": 3538,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:21",
+        "updated_at": "2026-06-26 14:04:21"
+    },
+    {
+        "id": 3539,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:24",
+        "updated_at": "2026-06-26 14:04:24"
+    },
+    {
+        "id": 3540,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:25",
+        "updated_at": "2026-06-26 14:04:25"
+    },
+    {
+        "id": 3541,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:25",
+        "updated_at": "2026-06-26 14:04:25"
+    },
+    {
+        "id": 3542,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:41",
+        "updated_at": "2026-06-26 14:04:41"
+    },
+    {
+        "id": 3543,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/en\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:41",
+        "updated_at": "2026-06-26 14:04:41"
+    },
+    {
+        "id": 3544,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:41",
+        "updated_at": "2026-06-26 14:04:41"
+    },
+    {
+        "id": 3545,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:42",
+        "updated_at": "2026-06-26 14:04:42"
+    },
+    {
+        "id": 3546,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:57",
+        "updated_at": "2026-06-26 14:04:57"
+    },
+    {
+        "id": 3547,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:57",
+        "updated_at": "2026-06-26 14:04:57"
+    },
+    {
+        "id": 3548,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"videos\",\"route\":\"videos.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:59",
+        "updated_at": "2026-06-26 14:04:59"
+    },
+    {
+        "id": 3549,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:59",
+        "updated_at": "2026-06-26 14:04:59"
+    },
+    {
+        "id": 3550,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/7\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:59",
+        "updated_at": "2026-06-26 14:04:59"
+    },
+    {
+        "id": 3551,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/8\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:59",
+        "updated_at": "2026-06-26 14:04:59"
+    },
+    {
+        "id": 3552,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/6\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:04:59",
+        "updated_at": "2026-06-26 14:04:59"
+    },
+    {
+        "id": 3553,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/4\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:05:05",
+        "updated_at": "2026-06-26 14:05:05"
+    },
+    {
+        "id": 3554,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/5\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:05:05",
+        "updated_at": "2026-06-26 14:05:05"
+    },
+    {
+        "id": 3555,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/3\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:05:05",
+        "updated_at": "2026-06-26 14:05:05"
+    },
+    {
+        "id": 3556,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/2\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:05:06",
+        "updated_at": "2026-06-26 14:05:06"
+    },
+    {
+        "id": 3557,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"videos\\/1\\/track\",\"route\":\"content.video.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:05:06",
+        "updated_at": "2026-06-26 14:05:06"
+    },
+    {
+        "id": 3558,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:05:25",
+        "updated_at": "2026-06-26 14:05:25"
+    },
+    {
+        "id": 3559,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"videos\",\"route\":\"videos.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:53:12",
+        "updated_at": "2026-06-26 14:53:12"
+    },
+    {
+        "id": 3560,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:53:15",
+        "updated_at": "2026-06-26 14:53:15"
+    },
+    {
+        "id": 3561,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:53:17",
+        "updated_at": "2026-06-26 14:53:17"
+    },
+    {
+        "id": 3562,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:54:12",
+        "updated_at": "2026-06-26 14:54:12"
+    },
+    {
+        "id": 3563,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:56:16",
+        "updated_at": "2026-06-26 14:56:16"
+    },
+    {
+        "id": 3564,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:56:17",
+        "updated_at": "2026-06-26 14:56:17"
+    },
+    {
+        "id": 3565,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 14:56:47",
+        "updated_at": "2026-06-26 14:56:47"
+    },
+    {
+        "id": 3566,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:00:14",
+        "updated_at": "2026-06-26 15:00:14"
+    },
+    {
+        "id": 3567,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:00:20",
+        "updated_at": "2026-06-26 15:00:20"
+    },
+    {
+        "id": 3568,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:00:33",
+        "updated_at": "2026-06-26 15:00:33"
+    },
+    {
+        "id": 3569,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:01:53",
+        "updated_at": "2026-06-26 15:01:53"
+    },
+    {
+        "id": 3570,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:02:01",
+        "updated_at": "2026-06-26 15:02:01"
+    },
+    {
+        "id": 3571,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:11:57",
+        "updated_at": "2026-06-26 15:11:57"
+    },
+    {
+        "id": 3572,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:11:58",
+        "updated_at": "2026-06-26 15:11:58"
+    },
+    {
+        "id": 3573,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:16",
+        "updated_at": "2026-06-26 15:12:16"
+    },
+    {
+        "id": 3574,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"about\",\"route\":\"about\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:17",
+        "updated_at": "2026-06-26 15:12:17"
+    },
+    {
+        "id": 3575,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:17",
+        "updated_at": "2026-06-26 15:12:17"
+    },
+    {
+        "id": 3576,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:23",
+        "updated_at": "2026-06-26 15:12:23"
+    },
+    {
+        "id": 3577,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:23",
+        "updated_at": "2026-06-26 15:12:23"
+    },
+    {
+        "id": 3578,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:23",
+        "updated_at": "2026-06-26 15:12:23"
+    },
+    {
+        "id": 3579,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:12:50",
+        "updated_at": "2026-06-26 15:12:50"
+    },
+    {
+        "id": 3580,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:41:56",
+        "updated_at": "2026-06-26 15:41:56"
+    },
+    {
+        "id": 3581,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:41:57",
+        "updated_at": "2026-06-26 15:41:57"
+    },
+    {
+        "id": 3582,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 15:42:03",
+        "updated_at": "2026-06-26 15:42:03"
+    },
+    {
+        "id": 3583,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:21",
+        "updated_at": "2026-06-26 16:04:21"
+    },
+    {
+        "id": 3584,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:22",
+        "updated_at": "2026-06-26 16:04:22"
+    },
+    {
+        "id": 3585,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:32",
+        "updated_at": "2026-06-26 16:04:32"
+    },
+    {
+        "id": 3586,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/en\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:32",
+        "updated_at": "2026-06-26 16:04:32"
+    },
+    {
+        "id": 3587,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:33",
+        "updated_at": "2026-06-26 16:04:33"
+    },
+    {
+        "id": 3588,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:33",
+        "updated_at": "2026-06-26 16:04:33"
+    },
+    {
+        "id": 3589,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:04:40",
+        "updated_at": "2026-06-26 16:04:40"
+    },
+    {
+        "id": 3590,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:11:26",
+        "updated_at": "2026-06-26 16:11:26"
+    },
+    {
+        "id": 3591,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:11:26",
+        "updated_at": "2026-06-26 16:11:26"
+    },
+    {
+        "id": 3592,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:11:31",
+        "updated_at": "2026-06-26 16:11:31"
+    },
+    {
+        "id": 3593,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:14:46",
+        "updated_at": "2026-06-26 16:14:46"
+    },
+    {
+        "id": 3594,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:16:56",
+        "updated_at": "2026-06-26 16:16:56"
+    },
+    {
+        "id": 3595,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:16:57",
+        "updated_at": "2026-06-26 16:16:57"
+    },
+    {
+        "id": 3596,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:17:04",
+        "updated_at": "2026-06-26 16:17:04"
+    },
+    {
+        "id": 3597,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:19:49",
+        "updated_at": "2026-06-26 16:19:49"
+    },
+    {
+        "id": 3598,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:19:50",
+        "updated_at": "2026-06-26 16:19:50"
+    },
+    {
+        "id": 3599,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:19:52",
+        "updated_at": "2026-06-26 16:19:52"
+    },
+    {
+        "id": 3600,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:40:36",
+        "updated_at": "2026-06-26 16:40:36"
+    },
+    {
+        "id": 3601,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:50:30",
+        "updated_at": "2026-06-26 16:50:30"
+    },
+    {
+        "id": 3602,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:50:31",
+        "updated_at": "2026-06-26 16:50:31"
+    },
+    {
+        "id": 3603,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:50:44",
+        "updated_at": "2026-06-26 16:50:44"
+    },
+    {
+        "id": 3604,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:50:44",
+        "updated_at": "2026-06-26 16:50:44"
+    },
+    {
+        "id": 3605,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:50:45",
+        "updated_at": "2026-06-26 16:50:45"
+    },
+    {
+        "id": 3606,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:50:50",
+        "updated_at": "2026-06-26 16:50:50"
+    },
+    {
+        "id": 3607,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:15",
+        "updated_at": "2026-06-26 16:51:15"
+    },
+    {
+        "id": 3608,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:15",
+        "updated_at": "2026-06-26 16:51:15"
+    },
+    {
+        "id": 3609,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:16",
+        "updated_at": "2026-06-26 16:51:16"
+    },
+    {
+        "id": 3610,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:17",
+        "updated_at": "2026-06-26 16:51:17"
+    },
+    {
+        "id": 3611,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:17",
+        "updated_at": "2026-06-26 16:51:17"
+    },
+    {
+        "id": 3612,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:18",
+        "updated_at": "2026-06-26 16:51:18"
+    },
+    {
+        "id": 3613,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:18",
+        "updated_at": "2026-06-26 16:51:18"
+    },
+    {
+        "id": 3614,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:19",
+        "updated_at": "2026-06-26 16:51:19"
+    },
+    {
+        "id": 3615,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:20",
+        "updated_at": "2026-06-26 16:51:20"
+    },
+    {
+        "id": 3616,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:20",
+        "updated_at": "2026-06-26 16:51:20"
+    },
+    {
+        "id": 3617,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:20",
+        "updated_at": "2026-06-26 16:51:20"
+    },
+    {
+        "id": 3618,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:51:24",
+        "updated_at": "2026-06-26 16:51:24"
+    },
+    {
+        "id": 3619,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:54:29",
+        "updated_at": "2026-06-26 16:54:29"
+    },
+    {
+        "id": 3620,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:54:30",
+        "updated_at": "2026-06-26 16:54:30"
+    },
+    {
+        "id": 3621,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:54:33",
+        "updated_at": "2026-06-26 16:54:33"
+    },
+    {
+        "id": 3622,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:56:53",
+        "updated_at": "2026-06-26 16:56:53"
+    },
+    {
+        "id": 3623,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:56:54",
+        "updated_at": "2026-06-26 16:56:54"
+    },
+    {
+        "id": 3624,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:57:23",
+        "updated_at": "2026-06-26 16:57:23"
+    },
+    {
+        "id": 3625,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 16:58:42",
+        "updated_at": "2026-06-26 16:58:42"
+    },
+    {
+        "id": 3626,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:01:37",
+        "updated_at": "2026-06-26 17:01:37"
+    },
+    {
+        "id": 3627,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:01:38",
+        "updated_at": "2026-06-26 17:01:38"
+    },
+    {
+        "id": 3628,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:01:56",
+        "updated_at": "2026-06-26 17:01:56"
+    },
+    {
+        "id": 3629,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:01:56",
+        "updated_at": "2026-06-26 17:01:56"
+    },
+    {
+        "id": 3630,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:01:56",
+        "updated_at": "2026-06-26 17:01:56"
+    },
+    {
+        "id": 3631,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:02:02",
+        "updated_at": "2026-06-26 17:02:02"
+    },
+    {
+        "id": 3632,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Herd\\/1.28.0 Chrome\\/120.0.6099.291 Electron\\/28.2.5 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:09:52",
+        "updated_at": "2026-06-26 17:09:52"
+    },
+    {
+        "id": 3633,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:09:54",
+        "updated_at": "2026-06-26 17:09:54"
+    },
+    {
+        "id": 3634,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:00",
+        "updated_at": "2026-06-26 17:10:00"
+    },
+    {
+        "id": 3635,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:00",
+        "updated_at": "2026-06-26 17:10:00"
+    },
+    {
+        "id": 3636,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:00",
+        "updated_at": "2026-06-26 17:10:00"
+    },
+    {
+        "id": 3637,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/en\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:13",
+        "updated_at": "2026-06-26 17:10:13"
+    },
+    {
+        "id": 3638,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:17",
+        "updated_at": "2026-06-26 17:10:17"
+    },
+    {
+        "id": 3639,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:18",
+        "updated_at": "2026-06-26 17:10:18"
+    },
+    {
+        "id": 3640,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:32",
+        "updated_at": "2026-06-26 17:10:32"
+    },
+    {
+        "id": 3641,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:35",
+        "updated_at": "2026-06-26 17:10:35"
+    },
+    {
+        "id": 3642,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:10:35",
+        "updated_at": "2026-06-26 17:10:35"
+    },
+    {
+        "id": 3643,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:04",
+        "updated_at": "2026-06-26 17:11:04"
+    },
+    {
+        "id": 3644,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"devotionals\",\"route\":\"devotionals.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:33",
+        "updated_at": "2026-06-26 17:11:33"
+    },
+    {
+        "id": 3645,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:36",
+        "updated_at": "2026-06-26 17:11:36"
+    },
+    {
+        "id": 3646,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:36",
+        "updated_at": "2026-06-26 17:11:36"
+    },
+    {
+        "id": 3647,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"about\",\"route\":\"about\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:37",
+        "updated_at": "2026-06-26 17:11:37"
+    },
+    {
+        "id": 3648,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:38",
+        "updated_at": "2026-06-26 17:11:38"
+    },
+    {
+        "id": 3649,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:42",
+        "updated_at": "2026-06-26 17:11:42"
+    },
+    {
+        "id": 3650,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:43",
+        "updated_at": "2026-06-26 17:11:43"
+    },
+    {
+        "id": 3651,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:47",
+        "updated_at": "2026-06-26 17:11:47"
+    },
+    {
+        "id": 3652,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:50",
+        "updated_at": "2026-06-26 17:11:50"
+    },
+    {
+        "id": 3653,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:11:54",
+        "updated_at": "2026-06-26 17:11:54"
+    },
+    {
+        "id": 3654,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:12:02",
+        "updated_at": "2026-06-26 17:12:02"
+    },
+    {
+        "id": 3655,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:12:18",
+        "updated_at": "2026-06-26 17:12:18"
+    },
+    {
+        "id": 3656,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:12:21",
+        "updated_at": "2026-06-26 17:12:21"
+    },
+    {
+        "id": 3657,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:02",
+        "updated_at": "2026-06-26 17:14:02"
+    },
+    {
+        "id": 3658,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:04",
+        "updated_at": "2026-06-26 17:14:04"
+    },
+    {
+        "id": 3659,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:04",
+        "updated_at": "2026-06-26 17:14:04"
+    },
+    {
+        "id": 3660,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Herd\\/1.28.0 Chrome\\/120.0.6099.291 Electron\\/28.2.5 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:13",
+        "updated_at": "2026-06-26 17:14:13"
+    },
+    {
+        "id": 3661,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Herd\\/1.28.0 Chrome\\/120.0.6099.291 Electron\\/28.2.5 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:15",
+        "updated_at": "2026-06-26 17:14:15"
+    },
+    {
+        "id": 3662,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Herd\\/1.28.0 Chrome\\/120.0.6099.291 Electron\\/28.2.5 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:15",
+        "updated_at": "2026-06-26 17:14:15"
+    },
+    {
+        "id": 3663,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Herd\\/1.28.0 Chrome\\/120.0.6099.291 Electron\\/28.2.5 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:23",
+        "updated_at": "2026-06-26 17:14:23"
+    },
+    {
+        "id": 3664,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:43",
+        "updated_at": "2026-06-26 17:14:43"
+    },
+    {
+        "id": 3665,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:45",
+        "updated_at": "2026-06-26 17:14:45"
+    },
+    {
+        "id": 3666,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:46",
+        "updated_at": "2026-06-26 17:14:46"
+    },
+    {
+        "id": 3667,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:49",
+        "updated_at": "2026-06-26 17:14:49"
+    },
+    {
+        "id": 3668,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:14:56",
+        "updated_at": "2026-06-26 17:14:56"
+    },
+    {
+        "id": 3669,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:15:00",
+        "updated_at": "2026-06-26 17:15:00"
+    },
+    {
+        "id": 3670,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:15:03",
+        "updated_at": "2026-06-26 17:15:03"
+    },
+    {
+        "id": 3671,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:15:03",
+        "updated_at": "2026-06-26 17:15:03"
+    },
+    {
+        "id": 3672,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:18:02",
+        "updated_at": "2026-06-26 17:18:02"
+    },
+    {
+        "id": 3673,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:18:09",
+        "updated_at": "2026-06-26 17:18:09"
+    },
+    {
+        "id": 3674,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:18:23",
+        "updated_at": "2026-06-26 17:18:23"
+    },
+    {
+        "id": 3675,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:19:44",
+        "updated_at": "2026-06-26 17:19:44"
+    },
+    {
+        "id": 3676,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:19:46",
+        "updated_at": "2026-06-26 17:19:46"
+    },
+    {
+        "id": 3677,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:19:57",
+        "updated_at": "2026-06-26 17:19:57"
+    },
+    {
+        "id": 3678,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:04",
+        "updated_at": "2026-06-26 17:20:04"
+    },
+    {
+        "id": 3679,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:06",
+        "updated_at": "2026-06-26 17:20:06"
+    },
+    {
+        "id": 3680,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:07",
+        "updated_at": "2026-06-26 17:20:07"
+    },
+    {
+        "id": 3681,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:09",
+        "updated_at": "2026-06-26 17:20:09"
+    },
+    {
+        "id": 3682,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"devotionals\",\"route\":\"devotionals.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:28",
+        "updated_at": "2026-06-26 17:20:28"
+    },
+    {
+        "id": 3683,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:28",
+        "updated_at": "2026-06-26 17:20:28"
+    },
+    {
+        "id": 3684,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:20:33",
+        "updated_at": "2026-06-26 17:20:33"
+    },
+    {
+        "id": 3685,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"devotionals\",\"route\":\"devotionals.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:22:18",
+        "updated_at": "2026-06-26 17:22:18"
+    },
+    {
+        "id": 3686,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:22:19",
+        "updated_at": "2026-06-26 17:22:19"
+    },
+    {
+        "id": 3687,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:22:22",
+        "updated_at": "2026-06-26 17:22:22"
+    },
+    {
+        "id": 3688,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:22:28",
+        "updated_at": "2026-06-26 17:22:28"
+    },
+    {
+        "id": 3689,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:22:34",
+        "updated_at": "2026-06-26 17:22:34"
+    },
+    {
+        "id": 3690,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:22:58",
+        "updated_at": "2026-06-26 17:22:58"
+    },
+    {
+        "id": 3691,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:25:18",
+        "updated_at": "2026-06-26 17:25:18"
+    },
+    {
+        "id": 3692,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:29:04",
+        "updated_at": "2026-06-26 17:29:04"
+    },
+    {
+        "id": 3693,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:29:26",
+        "updated_at": "2026-06-26 17:29:26"
+    },
+    {
+        "id": 3694,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:31:44",
+        "updated_at": "2026-06-26 17:31:44"
+    },
+    {
+        "id": 3695,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:46:42",
+        "updated_at": "2026-06-26 17:46:42"
+    },
+    {
+        "id": 3696,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:47:29",
+        "updated_at": "2026-06-26 17:47:29"
+    },
+    {
+        "id": 3697,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell\\/5.1.26100.8655\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:50:01",
+        "updated_at": "2026-06-26 17:50:01"
+    },
+    {
+        "id": 3698,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:52:00",
+        "updated_at": "2026-06-26 17:52:00"
+    },
+    {
+        "id": 3699,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:52:03",
+        "updated_at": "2026-06-26 17:52:03"
+    },
+    {
+        "id": 3700,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:52:51",
+        "updated_at": "2026-06-26 17:52:51"
+    },
+    {
+        "id": 3701,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"books\\/9\\/reader\",\"route\":\"books.reader\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:53:48",
+        "updated_at": "2026-06-26 17:53:48"
+    },
+    {
+        "id": 3702,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:53:50",
+        "updated_at": "2026-06-26 17:53:50"
+    },
+    {
+        "id": 3703,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:05",
+        "updated_at": "2026-06-26 17:54:05"
+    },
+    {
+        "id": 3704,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:11",
+        "updated_at": "2026-06-26 17:54:11"
+    },
+    {
+        "id": 3705,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:11",
+        "updated_at": "2026-06-26 17:54:11"
+    },
+    {
+        "id": 3706,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:19",
+        "updated_at": "2026-06-26 17:54:19"
+    },
+    {
+        "id": 3707,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:20",
+        "updated_at": "2026-06-26 17:54:20"
+    },
+    {
+        "id": 3708,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:22",
+        "updated_at": "2026-06-26 17:54:22"
+    },
+    {
+        "id": 3709,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:35",
+        "updated_at": "2026-06-26 17:54:35"
+    },
+    {
+        "id": 3710,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:54:50",
+        "updated_at": "2026-06-26 17:54:50"
+    },
+    {
+        "id": 3711,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:05",
+        "updated_at": "2026-06-26 17:55:05"
+    },
+    {
+        "id": 3712,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:20",
+        "updated_at": "2026-06-26 17:55:20"
+    },
+    {
+        "id": 3713,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:35",
+        "updated_at": "2026-06-26 17:55:35"
+    },
+    {
+        "id": 3714,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/9\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:50",
+        "updated_at": "2026-06-26 17:55:50"
+    },
+    {
+        "id": 3715,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"books\\/9\\/reader\",\"route\":\"books.reader\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:52",
+        "updated_at": "2026-06-26 17:55:52"
+    },
+    {
+        "id": 3716,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:52",
+        "updated_at": "2026-06-26 17:55:52"
+    },
+    {
+        "id": 3717,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:53",
+        "updated_at": "2026-06-26 17:55:53"
+    },
+    {
+        "id": 3718,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:53",
+        "updated_at": "2026-06-26 17:55:53"
+    },
+    {
+        "id": 3719,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:55:54",
+        "updated_at": "2026-06-26 17:55:54"
+    },
+    {
+        "id": 3720,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:56:06",
+        "updated_at": "2026-06-26 17:56:06"
+    },
+    {
+        "id": 3721,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/rw\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:56:06",
+        "updated_at": "2026-06-26 17:56:06"
+    },
+    {
+        "id": 3722,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:56:06",
+        "updated_at": "2026-06-26 17:56:06"
+    },
+    {
+        "id": 3723,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:56:06",
+        "updated_at": "2026-06-26 17:56:06"
+    },
+    {
+        "id": 3724,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:56:09",
+        "updated_at": "2026-06-26 17:56:09"
+    },
+    {
+        "id": 3725,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:22",
+        "updated_at": "2026-06-26 17:58:22"
+    },
+    {
+        "id": 3726,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:23",
+        "updated_at": "2026-06-26 17:58:23"
+    },
+    {
+        "id": 3727,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:29",
+        "updated_at": "2026-06-26 17:58:29"
+    },
+    {
+        "id": 3728,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:29",
+        "updated_at": "2026-06-26 17:58:29"
+    },
+    {
+        "id": 3729,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:29",
+        "updated_at": "2026-06-26 17:58:29"
+    },
+    {
+        "id": 3730,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:38",
+        "updated_at": "2026-06-26 17:58:38"
+    },
+    {
+        "id": 3731,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/en\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:38",
+        "updated_at": "2026-06-26 17:58:38"
+    },
+    {
+        "id": 3732,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:38",
+        "updated_at": "2026-06-26 17:58:38"
+    },
+    {
+        "id": 3733,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:38",
+        "updated_at": "2026-06-26 17:58:38"
+    },
+    {
+        "id": 3734,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:58:53",
+        "updated_at": "2026-06-26 17:58:53"
+    },
+    {
+        "id": 3735,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:59:33",
+        "updated_at": "2026-06-26 17:59:33"
+    },
+    {
+        "id": 3736,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:59:35",
+        "updated_at": "2026-06-26 17:59:35"
+    },
+    {
+        "id": 3737,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 17:59:56",
+        "updated_at": "2026-06-26 17:59:56"
+    },
+    {
+        "id": 3738,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:14",
+        "updated_at": "2026-06-26 18:02:14"
+    },
+    {
+        "id": 3739,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"devotionals\\/3\",\"route\":\"devotionals.show\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:14",
+        "updated_at": "2026-06-26 18:02:14"
+    },
+    {
+        "id": 3740,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:15",
+        "updated_at": "2026-06-26 18:02:15"
+    },
+    {
+        "id": 3741,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:19",
+        "updated_at": "2026-06-26 18:02:19"
+    },
+    {
+        "id": 3742,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/rw\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:23",
+        "updated_at": "2026-06-26 18:02:23"
+    },
+    {
+        "id": 3743,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:25",
+        "updated_at": "2026-06-26 18:02:25"
+    },
+    {
+        "id": 3744,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:25",
+        "updated_at": "2026-06-26 18:02:25"
+    },
+    {
+        "id": 3745,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:36",
+        "updated_at": "2026-06-26 18:02:36"
+    },
+    {
+        "id": 3746,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"devotionals\",\"route\":\"devotionals.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:37",
+        "updated_at": "2026-06-26 18:02:37"
+    },
+    {
+        "id": 3747,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:37",
+        "updated_at": "2026-06-26 18:02:37"
+    },
+    {
+        "id": 3748,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:47",
+        "updated_at": "2026-06-26 18:02:47"
+    },
+    {
+        "id": 3749,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:49",
+        "updated_at": "2026-06-26 18:02:49"
+    },
+    {
+        "id": 3750,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:49",
+        "updated_at": "2026-06-26 18:02:49"
+    },
+    {
+        "id": 3751,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:51",
+        "updated_at": "2026-06-26 18:02:51"
+    },
+    {
+        "id": 3752,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:51",
+        "updated_at": "2026-06-26 18:02:51"
+    },
+    {
+        "id": 3753,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:51",
+        "updated_at": "2026-06-26 18:02:51"
+    },
+    {
+        "id": 3754,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:02:53",
+        "updated_at": "2026-06-26 18:02:53"
+    },
+    {
+        "id": 3755,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"locale\\/en\",\"route\":\"locale.switch\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:03:38",
+        "updated_at": "2026-06-26 18:03:38"
+    },
+    {
+        "id": 3756,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:03:40",
+        "updated_at": "2026-06-26 18:03:40"
+    },
+    {
+        "id": 3757,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:03:41",
+        "updated_at": "2026-06-26 18:03:41"
+    },
+    {
+        "id": 3758,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 18:03:42",
+        "updated_at": "2026-06-26 18:03:42"
+    },
+    {
+        "id": 3759,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:29:37",
+        "updated_at": "2026-06-26 19:29:37"
+    },
+    {
+        "id": 3760,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:29:43",
+        "updated_at": "2026-06-26 19:29:43"
+    },
+    {
+        "id": 3761,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:30:42",
+        "updated_at": "2026-06-26 19:30:42"
+    },
+    {
+        "id": 3762,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:30:42",
+        "updated_at": "2026-06-26 19:30:42"
+    },
+    {
+        "id": 3763,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"books\\/8\\/reader\",\"route\":\"books.reader\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:30:45",
+        "updated_at": "2026-06-26 19:30:45"
+    },
+    {
+        "id": 3764,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:30:46",
+        "updated_at": "2026-06-26 19:30:46"
+    },
+    {
+        "id": 3765,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/8\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:31:02",
+        "updated_at": "2026-06-26 19:31:02"
+    },
+    {
+        "id": 3766,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:31:13",
+        "updated_at": "2026-06-26 19:31:13"
+    },
+    {
+        "id": 3767,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"books\\/8\\/track\",\"route\":\"content.book.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:31:17",
+        "updated_at": "2026-06-26 19:31:17"
+    },
+    {
+        "id": 3768,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:33:21",
+        "updated_at": "2026-06-26 19:33:21"
+    },
+    {
+        "id": 3769,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:33:23",
+        "updated_at": "2026-06-26 19:33:23"
+    },
+    {
+        "id": 3770,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:33:32",
+        "updated_at": "2026-06-26 19:33:32"
+    },
+    {
+        "id": 3771,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:36:32",
+        "updated_at": "2026-06-26 19:36:32"
+    },
+    {
+        "id": 3772,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:36:39",
+        "updated_at": "2026-06-26 19:36:39"
+    },
+    {
+        "id": 3773,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:36:43",
+        "updated_at": "2026-06-26 19:36:43"
+    },
+    {
+        "id": 3774,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:36:47",
+        "updated_at": "2026-06-26 19:36:47"
+    },
+    {
+        "id": 3775,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:36:51",
+        "updated_at": "2026-06-26 19:36:51"
+    },
+    {
+        "id": 3776,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:37:55",
+        "updated_at": "2026-06-26 19:37:55"
+    },
+    {
+        "id": 3777,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:37:56",
+        "updated_at": "2026-06-26 19:37:56"
+    },
+    {
+        "id": 3778,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:37:59",
+        "updated_at": "2026-06-26 19:37:59"
+    },
+    {
+        "id": 3779,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:38:01",
+        "updated_at": "2026-06-26 19:38:01"
+    },
+    {
+        "id": 3780,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:38:04",
+        "updated_at": "2026-06-26 19:38:04"
+    },
+    {
+        "id": 3781,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:41:23",
+        "updated_at": "2026-06-26 19:41:23"
+    },
+    {
+        "id": 3782,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:41:37",
+        "updated_at": "2026-06-26 19:41:37"
+    },
+    {
+        "id": 3783,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:41:39",
+        "updated_at": "2026-06-26 19:41:39"
+    },
+    {
+        "id": 3784,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:41:40",
+        "updated_at": "2026-06-26 19:41:40"
+    },
+    {
+        "id": 3785,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:41:41",
+        "updated_at": "2026-06-26 19:41:41"
+    },
+    {
+        "id": 3786,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:41:45",
+        "updated_at": "2026-06-26 19:41:45"
+    },
+    {
+        "id": 3787,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:42:21",
+        "updated_at": "2026-06-26 19:42:21"
+    },
+    {
+        "id": 3788,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:42:23",
+        "updated_at": "2026-06-26 19:42:23"
+    },
+    {
+        "id": 3789,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:42:29",
+        "updated_at": "2026-06-26 19:42:29"
+    },
+    {
+        "id": 3790,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:42:58",
+        "updated_at": "2026-06-26 19:42:58"
+    },
+    {
+        "id": 3791,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:43:01",
+        "updated_at": "2026-06-26 19:43:01"
+    },
+    {
+        "id": 3792,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:43:01",
+        "updated_at": "2026-06-26 19:43:01"
+    },
+    {
+        "id": 3793,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:43:02",
+        "updated_at": "2026-06-26 19:43:02"
+    },
+    {
+        "id": 3794,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:43:04",
+        "updated_at": "2026-06-26 19:43:04"
+    },
+    {
+        "id": 3795,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:44:01",
+        "updated_at": "2026-06-26 19:44:01"
+    },
+    {
+        "id": 3796,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:45:26",
+        "updated_at": "2026-06-26 19:45:26"
+    },
+    {
+        "id": 3797,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:45:30",
+        "updated_at": "2026-06-26 19:45:30"
+    },
+    {
+        "id": 3798,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:46:11",
+        "updated_at": "2026-06-26 19:46:11"
+    },
+    {
+        "id": 3799,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:46:14",
+        "updated_at": "2026-06-26 19:46:14"
+    },
+    {
+        "id": 3800,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:46:15",
+        "updated_at": "2026-06-26 19:46:15"
+    },
+    {
+        "id": 3801,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:46:22",
+        "updated_at": "2026-06-26 19:46:22"
+    },
+    {
+        "id": 3802,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:48:21",
+        "updated_at": "2026-06-26 19:48:21"
+    },
+    {
+        "id": 3803,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:48:23",
+        "updated_at": "2026-06-26 19:48:23"
+    },
+    {
+        "id": 3804,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:48:27",
+        "updated_at": "2026-06-26 19:48:27"
+    },
+    {
+        "id": 3805,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:48:28",
+        "updated_at": "2026-06-26 19:48:28"
+    },
+    {
+        "id": 3806,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:48:28",
+        "updated_at": "2026-06-26 19:48:28"
+    },
+    {
+        "id": 3807,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:48:46",
+        "updated_at": "2026-06-26 19:48:46"
+    },
+    {
+        "id": 3808,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:50:04",
+        "updated_at": "2026-06-26 19:50:04"
+    },
+    {
+        "id": 3809,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:50:06",
+        "updated_at": "2026-06-26 19:50:06"
+    },
+    {
+        "id": 3810,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:52:00",
+        "updated_at": "2026-06-26 19:52:00"
+    },
+    {
+        "id": 3811,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:52:11",
+        "updated_at": "2026-06-26 19:52:11"
+    },
+    {
+        "id": 3812,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:52:13",
+        "updated_at": "2026-06-26 19:52:13"
+    },
+    {
+        "id": 3813,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:52:16",
+        "updated_at": "2026-06-26 19:52:16"
+    },
+    {
+        "id": 3814,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:54:02",
+        "updated_at": "2026-06-26 19:54:02"
+    },
+    {
+        "id": 3815,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:54:04",
+        "updated_at": "2026-06-26 19:54:04"
+    },
+    {
+        "id": 3816,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:54:13",
+        "updated_at": "2026-06-26 19:54:13"
+    },
+    {
+        "id": 3817,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"about\",\"route\":\"about\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:21",
+        "updated_at": "2026-06-26 19:59:21"
+    },
+    {
+        "id": 3818,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:22",
+        "updated_at": "2026-06-26 19:59:22"
+    },
+    {
+        "id": 3819,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:23",
+        "updated_at": "2026-06-26 19:59:23"
+    },
+    {
+        "id": 3820,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:30",
+        "updated_at": "2026-06-26 19:59:30"
+    },
+    {
+        "id": 3821,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:31",
+        "updated_at": "2026-06-26 19:59:31"
+    },
+    {
+        "id": 3822,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:31",
+        "updated_at": "2026-06-26 19:59:31"
+    },
+    {
+        "id": 3823,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 19:59:32",
+        "updated_at": "2026-06-26 19:59:32"
+    },
+    {
+        "id": 3824,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:02",
+        "updated_at": "2026-06-26 20:00:02"
+    },
+    {
+        "id": 3825,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:02",
+        "updated_at": "2026-06-26 20:00:02"
+    },
+    {
+        "id": 3826,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:03",
+        "updated_at": "2026-06-26 20:00:03"
+    },
+    {
+        "id": 3827,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:03",
+        "updated_at": "2026-06-26 20:00:03"
+    },
+    {
+        "id": 3828,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:04",
+        "updated_at": "2026-06-26 20:00:04"
+    },
+    {
+        "id": 3829,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:05",
+        "updated_at": "2026-06-26 20:00:05"
+    },
+    {
+        "id": 3830,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:05",
+        "updated_at": "2026-06-26 20:00:05"
+    },
+    {
+        "id": 3831,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:06",
+        "updated_at": "2026-06-26 20:00:06"
+    },
+    {
+        "id": 3832,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:06",
+        "updated_at": "2026-06-26 20:00:06"
+    },
+    {
+        "id": 3833,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:11",
+        "updated_at": "2026-06-26 20:00:11"
+    },
+    {
+        "id": 3834,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:23",
+        "updated_at": "2026-06-26 20:00:23"
+    },
+    {
+        "id": 3835,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:27",
+        "updated_at": "2026-06-26 20:00:27"
+    },
+    {
+        "id": 3836,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:35",
+        "updated_at": "2026-06-26 20:00:35"
+    },
+    {
+        "id": 3837,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:46",
+        "updated_at": "2026-06-26 20:00:46"
+    },
+    {
+        "id": 3838,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:46",
+        "updated_at": "2026-06-26 20:00:46"
+    },
+    {
+        "id": 3839,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:00:47",
+        "updated_at": "2026-06-26 20:00:47"
+    },
+    {
+        "id": 3840,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:01:12",
+        "updated_at": "2026-06-26 20:01:12"
+    },
+    {
+        "id": 3841,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:01:16",
+        "updated_at": "2026-06-26 20:01:16"
+    },
+    {
+        "id": 3842,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:00",
+        "updated_at": "2026-06-26 20:04:00"
+    },
+    {
+        "id": 3843,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:01",
+        "updated_at": "2026-06-26 20:04:01"
+    },
+    {
+        "id": 3844,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:29",
+        "updated_at": "2026-06-26 20:04:29"
+    },
+    {
+        "id": 3845,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"contact\",\"route\":\"contact\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:30",
+        "updated_at": "2026-06-26 20:04:30"
+    },
+    {
+        "id": 3846,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:31",
+        "updated_at": "2026-06-26 20:04:31"
+    },
+    {
+        "id": 3847,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"contact\",\"route\":\"contact\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:32",
+        "updated_at": "2026-06-26 20:04:32"
+    },
+    {
+        "id": 3848,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:32",
+        "updated_at": "2026-06-26 20:04:32"
+    },
+    {
+        "id": 3849,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:33",
+        "updated_at": "2026-06-26 20:04:33"
+    },
+    {
+        "id": 3850,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:35",
+        "updated_at": "2026-06-26 20:04:35"
+    },
+    {
+        "id": 3851,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:35",
+        "updated_at": "2026-06-26 20:04:35"
+    },
+    {
+        "id": 3852,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:36",
+        "updated_at": "2026-06-26 20:04:36"
+    },
+    {
+        "id": 3853,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:44",
+        "updated_at": "2026-06-26 20:04:44"
+    },
+    {
+        "id": 3854,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:45",
+        "updated_at": "2026-06-26 20:04:45"
+    },
+    {
+        "id": 3855,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:04:45",
+        "updated_at": "2026-06-26 20:04:45"
+    },
+    {
+        "id": 3856,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:33",
+        "updated_at": "2026-06-26 20:05:33"
+    },
+    {
+        "id": 3857,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:33",
+        "updated_at": "2026-06-26 20:05:33"
+    },
+    {
+        "id": 3858,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:34",
+        "updated_at": "2026-06-26 20:05:34"
+    },
+    {
+        "id": 3859,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:36",
+        "updated_at": "2026-06-26 20:05:36"
+    },
+    {
+        "id": 3860,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:36",
+        "updated_at": "2026-06-26 20:05:36"
+    },
+    {
+        "id": 3861,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:37",
+        "updated_at": "2026-06-26 20:05:37"
+    },
+    {
+        "id": 3862,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:37",
+        "updated_at": "2026-06-26 20:05:37"
+    },
+    {
+        "id": 3863,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:38",
+        "updated_at": "2026-06-26 20:05:38"
+    },
+    {
+        "id": 3864,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:38",
+        "updated_at": "2026-06-26 20:05:38"
+    },
+    {
+        "id": 3865,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:05:52",
+        "updated_at": "2026-06-26 20:05:52"
+    },
+    {
+        "id": 3866,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:06:10",
+        "updated_at": "2026-06-26 20:06:10"
+    },
+    {
+        "id": 3867,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:06:11",
+        "updated_at": "2026-06-26 20:06:11"
+    },
+    {
+        "id": 3868,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:06:11",
+        "updated_at": "2026-06-26 20:06:11"
+    },
+    {
+        "id": 3869,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:06:27",
+        "updated_at": "2026-06-26 20:06:27"
+    },
+    {
+        "id": 3870,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:07:27",
+        "updated_at": "2026-06-26 20:07:27"
+    },
+    {
+        "id": 3871,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:07:28",
+        "updated_at": "2026-06-26 20:07:28"
+    },
+    {
+        "id": 3872,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:07:32",
+        "updated_at": "2026-06-26 20:07:32"
+    },
+    {
+        "id": 3873,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:07:32",
+        "updated_at": "2026-06-26 20:07:32"
+    },
+    {
+        "id": 3874,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:07:33",
+        "updated_at": "2026-06-26 20:07:33"
+    },
+    {
+        "id": 3875,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:08:02",
+        "updated_at": "2026-06-26 20:08:02"
+    },
+    {
+        "id": 3876,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"\\/\",\"route\":\"home\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:26:19",
+        "updated_at": "2026-06-26 20:26:19"
+    },
+    {
+        "id": 3877,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:26:21",
+        "updated_at": "2026-06-26 20:26:21"
+    },
+    {
+        "id": 3878,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"analytics\\/audience\\/track\",\"route\":\"content.audience.track\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:26:45",
+        "updated_at": "2026-06-26 20:26:45"
+    },
+    {
+        "id": 3879,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"beacons\\/admin\\/login\",\"route\":\"admin.login\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:28:45",
+        "updated_at": "2026-06-26 20:28:45"
+    },
+    {
+        "id": 3880,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"beacons\\/admin\\/login\",\"route\":\"admin.login.store\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:29:38",
+        "updated_at": "2026-06-26 20:29:38"
+    },
+    {
+        "id": 3881,
+        "actor_user_id": null,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"beacons\\/admin\\/login\\/verify\",\"route\":\"admin.login.verify\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:29:40",
+        "updated_at": "2026-06-26 20:29:40"
+    },
+    {
+        "id": 3882,
+        "actor_user_id": 1,
+        "target_user_id": null,
+        "action": "login_success",
+        "meta": "{\"email\":\"simonpierreturamyumukiza96@gmail.com\",\"ip\":\"127.0.0.1\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:30:21",
+        "updated_at": "2026-06-26 20:30:21"
+    },
+    {
+        "id": 3883,
+        "actor_user_id": 1,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"POST\",\"path\":\"beacons\\/admin\\/login\\/verify\",\"route\":\"admin.login.verify.post\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:30:21",
+        "updated_at": "2026-06-26 20:30:21"
+    },
+    {
+        "id": 3884,
+        "actor_user_id": 1,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"beacons\\/dashboard\",\"route\":\"admin.dashboard\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:30:25",
+        "updated_at": "2026-06-26 20:30:25"
+    },
+    {
+        "id": 3885,
+        "actor_user_id": 1,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"beacons\\/admin\\/stats\",\"route\":\"admin.stats\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:30:27",
+        "updated_at": "2026-06-26 20:30:27"
+    },
+    {
+        "id": 3886,
+        "actor_user_id": 1,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"beacons\\/admin\\/documents\",\"route\":\"admin.documents.index\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:31:07",
+        "updated_at": "2026-06-26 20:31:07"
+    },
+    {
+        "id": 3887,
+        "actor_user_id": 1,
+        "target_user_id": null,
+        "action": "request",
+        "meta": "{\"method\":\"GET\",\"path\":\"beacons\\/admin\\/documents\\/25\\/preview\",\"route\":\"admin.documents.preview\",\"ip\":\"127.0.0.1\",\"user_agent\":\"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/149.0.0.0 Safari\\/537.36\"}",
+        "deleted_at": null,
+        "created_at": "2026-06-26 20:31:25",
+        "updated_at": "2026-06-26 20:31:25"
     }
 ]

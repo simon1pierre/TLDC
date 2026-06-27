@@ -8,12 +8,12 @@
         "email": "simonpierreturamyumukiza96@gmail.com",
         "password": "$2y$12$X8CXSsqEDMbvMByF2YBr2.wlwQMaIzwj.r80nBUnoKvC0ZY91VDb6",
         "email_verified_at": "2026-02-28 21:55:43",
-        "remember_token": "u4J78iBtILE8AmC5eeM9sKKl87uQ1ZC4JR6qxwSk48ur71efBMjBzsnnILyK",
+        "remember_token": "OUPrDwwUR2g3724wvX6s88LvjpnjniMr3hD0yfrwL6WGuLSE2a86m471jnfV",
         "role": "admin",
         "is_active": 1,
-        "last_login_at": "2026-03-10 23:41:07",
+        "last_login_at": "2026-06-26 20:30:21",
         "deleted_at": null,
         "created_at": "2026-02-28 21:55:43",
-        "updated_at": "2026-03-10 23:41:07"
+        "updated_at": "2026-06-26 20:30:21"
     }
 ]
